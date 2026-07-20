@@ -1,0 +1,39 @@
+{
+  "slug": "one-of-everything",
+  "title": "One of Everything",
+  "authors": [
+    {
+      "name": "Ravendesk"
+    },
+    {
+      "name": "Various"
+    }
+  ],
+  "year": 2026,
+  "description": "One of Everything is an MBF21 project where the mappers had to fulfil increasingly growing demands for the industrial mapping machine. The requirements start simple, but get progressively more complicated and involved. And here is the twist - the requirements are cumulative, so with each map a new requirement is added, but all the previous requirements still stay. Difficulty settings are implemented. On UV you can expect moderate difficulty with a smooth upward curve as the maps get longer and more complex.",
+  "iwad": "doom2",
+  "type": "megawad",
+  "sourcePort": "mbf21",
+  "requires": [],
+  "downloads": [
+    {
+      "type": "idgames",
+      "url": "https://youfailit.net/pub/idgames/levels/doom2/Ports/megawads/ooe.zip",
+      "filename": "ooe.zip"
+    }
+  ],
+  "thumbnail": "https://doomwiki.org/w/images/8/82/Ooe_title.png",
+  "screenshots": [],
+  "youtubeVideos": [],
+  "awards": [],
+  "tags": [],
+  "difficulty": "medium",
+  "notes": "",
+  "_schemaVersion": 1,
+  "_source": "manual",
+  "urls": [
+    "https://doomwiki.org/wiki/One_of_Everything",
+    "https://www.doomworld.com/forum/topic/157936",
+    "https://www.doomworld.com/idgames/?id=21999"
+  ]
+}
