@@ -70,7 +70,9 @@ This triggers `.github/workflows/release.yml` which:
 ### Scripts
 Python exploration scripts live in `scripts/`. Run with `uv run scripts/<script>.py`.
 
-### Gemini API
+### LLM pipeline (Gemini via OpenRouter)
 **NEVER use Gemini 2.0 Flash or Gemini 2.5 Flash.** These are outdated models.
 
-Always use **Gemini 3 Flash** (`gemini-3-flash-preview`) or newer. Model config is in `scripts/config.json`.
+Text-generation scripts go through OpenRouter (`scripts/llm.py`, needs `OPENROUTER_API_KEY`) using the model in `scripts/config.json` — currently `google/gemini-3.6-flash`. Always Gemini 3.6 Flash or newer.
+
+Some older image-extraction scripts (`add_images_from_doomwiki.py`, `extract_doomwiki_images.py`, `extract_wad_metadata.py`, `test_wad_summary.py`) still use the `google-genai` SDK directly with `gemini-3-flash-preview`.
