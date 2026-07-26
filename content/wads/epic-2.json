@@ -7,7 +7,7 @@
     }
   ],
   "year": 2010,
-  "description": "EPIC2.WAD for DOOM2 is a sequel to the popular EPIC.WAD. Like the original, it was designed for single player mode. Nonetheless, all levels of difficulty, and all modes are supported. This release of EPIC2.WAD also includes the latest revision of the original EPIC.WAD. Enhancements to EPIC.WAD include better deathmatch and cooperative support, all levels of difficulty, more beasties, and more surprises. If you liked EPIC.WAD, then you'll want to download this just for the revisions, but you'l...",
+  "description": "Epic 2 is a 32-level megawad created by Alexander S. Heavily influenced by Eternal Doom, the mod centers on ancient Egyptian aesthetics alongside outer space, spaceship, and alien themes. It features very large maps that frequently incorporate puzzle-solving elements and draw on replacement textures from titles such as Powerslave and Equinox.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -15,8 +15,8 @@
   "downloads": [
     {
       "type": "idgames",
-      "url": "https://youfailit.net/pub/idgames/levels/doom2/d-f/epic2a.zip",
-      "filename": "epic2a.zip"
+      "url": "https://youfailit.net/pub/idgames/levels/doom2/megawads/epic2.zip",
+      "filename": "epic2.zip"
     }
   ],
   "thumbnail": "https://doomwiki.org/w/images/b/bf/Epic_2_title.png",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Epic_2",
     "https://www.doomworld.com/vb/thread/53008",
     "https://www.doomworld.com/17years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

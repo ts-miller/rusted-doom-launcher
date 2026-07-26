@@ -7,15 +7,15 @@
     }
   ],
   "year": 2009,
-  "description": "This Wad is for DOOM ][ only. A deathmatch level. A small predictable wad. There is a central room with a bfg surronded by four other rooms containing the other weapons. All the rooms are connected. If you want to know any more you'll have to play it.",
+  "description": "Harmony is a post-apocalyptic total conversion for Doom II featuring up to 15 levels. Set in a future where a supervirus mutated much of the male population, it features DeHackEd gameplay changes, new weapons, a vibrant color scheme, and unique enemies made through clay animation.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
   "requires": [],
   "downloads": [
     {
-      "type": "idgames",
-      "url": "https://youfailit.net/pub/idgames/levels/doom2/deathmatch/g-i/harmony.zip",
+      "type": "direct",
+      "url": "https://dsdarchive.com/files/wads/doom2/1543/harmony.zip",
       "filename": "harmony.zip"
     }
   ],
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Harmony",
     "https://www.doomworld.com/vb/thread/48533",
     "https://www.doomworld.com/16years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

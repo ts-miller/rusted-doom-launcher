@@ -7,7 +7,7 @@
     }
   ],
   "year": 2010,
-  "description": "An absolute pain in the ( enter word of your choice here ) to finish due to the savegame memory limit in the doom2.exe file. I did this on a p120 with 32 meg and just got it within the limit but 50% of the time it still hangs the command.com when you exit the game so you will probably have to reboot. When playing the level, there are some parts that may seem hard to get to. They CAN be done. It is not a result of duff level design.",
+  "description": "Created by Edward Cripps, Valhalla is a single-level mod for Doom II occupying the MAP09 map slot. Set amid industrial ruins, it features a dark industrial theme that reminded reviewers of Doom 64. The level also includes an original music track.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -15,8 +15,8 @@
   "downloads": [
     {
       "type": "idgames",
-      "url": "https://youfailit.net/pub/idgames/levels/doom2/v-z/valhalla.zip",
-      "filename": "valhalla.zip"
+      "url": "https://youfailit.net/pub/idgames/levels/doom2/Ports/m-o/ma_val.zip",
+      "filename": "ma_val.zip"
     }
   ],
   "thumbnail": "",
@@ -45,5 +45,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Valhalla",
     "https://www.doomworld.com/17years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

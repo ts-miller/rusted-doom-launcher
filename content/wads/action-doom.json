@@ -7,7 +7,7 @@
     }
   ],
   "year": 2004,
-  "description": "Doom II Wad for Deatmatch. The simple things in life are often the best... Minimum clutter - maximum action. No dead ends, no megaspheres, no pity. Stop moving and you're dead. If you haven't been fragged for 30 seconds in a 4 player deathmatch, then you haven't pressed the spacebar! If you get lost in the corridors, don't worry because someone will find you! Don't panic and you may achieve the ultimate DOOM satisfaction - fragging 3 others simultaneously with one shot.",
+  "description": "Action Doom is a five-level total conversion designed to simulate 2D sidescroller shoot 'em up gameplay in a first-person perspective. Heavily influenced by 90s action games like Contra, it features linear levels with no hitscan attacks or attacks from behind. Players navigate custom enemies using a projectile-only arsenal and a hit-point health system.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -15,8 +15,8 @@
   "downloads": [
     {
       "type": "idgames",
-      "url": "https://youfailit.net/pub/idgames/levels/doom2/deathmatch/m-o/nonstop.zip",
-      "filename": "nonstop.zip"
+      "url": "https://youfailit.net/pub/idgames/levels/doom2/Ports/a-c/action.zip",
+      "filename": "action.zip"
     }
   ],
   "thumbnail": "https://doomwiki.org/w/images/e/e2/Action_Doom_title.png",
@@ -46,5 +46,6 @@
     "https://doomwiki.org/wiki/Action_Doom",
     "https://www.doomworld.com/vb/thread/132191",
     "https://www.doomworld.com/11years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

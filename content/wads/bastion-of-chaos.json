@@ -7,16 +7,16 @@
     }
   ],
   "year": 2020,
-  "description": "My first HeXen level. This level's concept will probably be incorperated into one of the levels in my other current DOOM ][ project (as yet unnamed). This is the first time I've designed a level with both Single Player and Co-op / Deathmatch in mind, and I think that it will be pretty good for all types of play. There are alot of bad guys tho' so it would be a good idea to use -nomonsters on Deathmatch. I haven't polished it as much as I'd like to. If I get some feedback (hint), then I'll pro...",
+  "description": "Designed by Bridgeburner56, Bastion of Chaos is a very large single-level slaughter map for Doom II occupying the MAP01 slot. Utilizing OTEX textures and advanced lighting effects, the level features the music track \"The Coming Hour\" by John Weekley (PRIMEVAL). It is available in both a full edition and a low spec edition.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
   "requires": [],
   "downloads": [
     {
-      "type": "idgames",
-      "url": "https://youfailit.net/pub/idgames/levels/hexen/a-c/bast_cha.zip",
-      "filename": "bast_cha.zip"
+      "type": "direct",
+      "url": "https://dsdarchive.com/files/wads/doom2/3511/bastion_v0.97.zip",
+      "filename": "bastion_v0.97.zip"
     }
   ],
   "thumbnail": "https://doomwiki.org/w/images/1/16/Bastion_of_Chaos_title.png",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Bastion_of_Chaos",
     "https://www.doomworld.com/vb/thread/116003",
     "https://www.doomworld.com/cacowards/2020/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }
