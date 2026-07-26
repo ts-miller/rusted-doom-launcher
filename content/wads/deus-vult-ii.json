@@ -7,7 +7,7 @@
     }
   ],
   "year": 2008,
-  "description": "The first edition of the sequel to the original Deus Vult. Heavily emphasizes co-op play and demo recording. Offers a wide variety of gameplay spanning nine levels, including gun n' run maps, slaughterfests, and tight survival maps. From small techbases to hellish cathedrals, Deus Vult II's levels are diverse in architecture as they are in gameplay, and offer a little bit of everything for the entire family.",
+  "description": "Deus Vult II is a 12-level episode replacement for Doom II created by Huy Pham. Ranging from small techbases to hellish cathedrals, the WAD features heavy opposition with sharp difficulty increases, spanning gun n' run maps, tight survival, and slaughterfests. It includes modified weapons, custom DeHackEd monsters, and multiple soundtrack options.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Deus_Vult_II",
     "https://www.doomworld.com/15years/",
     "https://www.doomworld.com/forum/topic/42544-deus-vult-ii-first-edition-released/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

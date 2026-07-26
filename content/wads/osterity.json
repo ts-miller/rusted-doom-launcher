@@ -7,7 +7,7 @@
     }
   ],
   "year": 2024,
-  "description": "\"Burdensome regulations have long stymied the United Aerospace Corporation's ability to innovate in the energy sector. However, recent pro-business rulings represent a welcome change of pace, clearing the way for us to open an exciting new facility in the Lone Star State. Come on down 'n' see us sometime, y'all!\"",
+  "description": "Osterity is an 8-level PWAD for Doom II set across a new UAC facility in Texas. Created by Big Ol' Billy, it extensively uses the OTEX texture pack and features an original soundtrack composed by the author. The set is distinguished by a custom DeHackEd patch that replaces all Doom II monsters, alongside an optional palette-swapping PWAD.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -74,5 +74,6 @@
     "https://doomwiki.org/wiki/Osterity",
     "https://www.doomworld.com/vb/thread/146429",
     "https://www.doomworld.com/cacowards/2024/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

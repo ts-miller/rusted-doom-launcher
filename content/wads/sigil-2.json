@@ -7,7 +7,7 @@
     }
   ],
   "year": 2023,
-  "description": "John Romero's unofficial sixth episode for the original Doom, released for the game's 30th anniversary. Nine more single-player and deathmatch levels of vicious, lava-soaked combat, with a soundtrack by THORR.",
+  "description": "Created by John Romero, SIGIL II is a nine-level episode for Doom and sequel to SIGIL. Each level features a secret that closes after 30 seconds, a secret opened by shooting a FIREBLU texture, and at least one cyberdemon on Ultra-Violence. The release triples the spider mastermind's health to 9,000 and includes soundtracks by Thorr and James Paddock.",
   "iwad": "doom",
   "type": "episode",
   "sourcePort": "vanilla",
@@ -29,5 +29,6 @@
   "_source": "manual",
   "urls": [
     "https://doomwiki.org/wiki/SIGIL_II"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -7,7 +7,7 @@
     }
   ],
   "year": 2013,
-  "description": "\"Swim With The Whales\" is a set of 3 boom- compatible levels featuring abstract environments, very challenging gameplay, and elaborate secret areas. I spun the color wheel and landed on blue this time around, so expect plenty of it! The dynamic range of the difficulty is wider than my previous releases. That is, UV is harder and HMP / HNTR are both a bit easier. So I encourage even skilled players to start off on HMP.",
+  "description": "Swim With The Whales is a four-level mapset by Zachary Stephens centered around abstract, water-themed environments. Characterized by a prominent blue color palette, the WAD features very challenging gameplay with a wide dynamic difficulty range and elaborate secret areas.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Swim_With_The_Whales",
     "https://www.doomworld.com/vb/thread/66260",
     "https://www.doomworld.com/20years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

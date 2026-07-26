@@ -7,7 +7,7 @@
     }
   ],
   "year": 2006,
-  "description": "A level with a different take on Doom engine gameplay.",
+  "description": "Created by Nigel Rowand, Operation Overlord is a single-level total conversion featuring a different take on Doom engine gameplay. Set during a D-Day style beach assault, UAC marines advance through enemy lines to fight a South American movement. The mission incorporates custom enemy types, landmines, inventory items, throwable grenades, and weapons such as the Thompson submachine gun.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -41,5 +41,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Operation_Overlord",
     "https://www.doomworld.com/13years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

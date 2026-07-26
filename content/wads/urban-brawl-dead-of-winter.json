@@ -7,7 +7,7 @@
     }
   ],
   "year": 2008,
-  "description": "Urban Brawl is the prequel to Scuba Steve's: Action Doom, telling your character's history before those events. Urban Brawl embodies a comic book look and feel with cell shaded graphics and story sequences. All of this is fused with a gameplay that is reminicent of an old beat-em up game.",
+  "description": "Action Doom 2: Urban Brawl is a first-person beat-em-up set in an urban environment. Serving as a prequel to Action Doom, it features cel-shaded comic book visuals, film-noir cutscenes, branching paths, and multiple endings. Gameplay emphasizes close-quarters melee combat with an array of custom weapons, custom enemies, and an original soundtrack.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -46,5 +46,6 @@
     "https://doomwiki.org/wiki/Action_Doom_2:_Urban_Brawl",
     "https://www.doomworld.com/vb/thread/123821",
     "https://www.doomworld.com/15years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

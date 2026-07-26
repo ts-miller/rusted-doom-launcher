@@ -7,7 +7,7 @@
     }
   ],
   "year": 2012,
-  "description": "Putrefier - Cacoward winner 2012",
+  "description": "Putrefier is a single-level map for Doom II set in a facility environment. Created by Edward Cripps, this detailed level features thousands of sectors and includes a custom music cover of the theme from Zombi 2.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -46,5 +46,6 @@
     "https://doomwiki.org/wiki/Putrefier",
     "https://www.doomworld.com/19years/",
     "https://www.doomworld.com/forum/topic/61780-putrefier/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

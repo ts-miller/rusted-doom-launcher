@@ -7,7 +7,7 @@
     }
   ],
   "year": 2023,
-  "description": "Austrian Avian Association is a 18-level total conversion for Doom II, taking place in a 1800s Austrian alps setting. Play as Schnabelperchten doctor Katharina Berger as she has to fend off a sudden invasion of strange creatures! Then, journey to an excavated temple in the mountains of Croatia in search of a baetylus, which can revive the innocent lives that were lost during the invasion! This WAD contains three episodes, easily seen with a source port that supports UMAPINFO: -Frozen Hell: St...",
+  "description": "Austrian Avian Association is an 18-level total conversion megawad set in the 1800s Austrian Alps. Drawing inspiration from Alpine folklore, players control a birdlike Schnabelperchten doctor fending off an invasion of strange creatures. The mod completely replaces all original graphics, sounds, and sprites, introducing a full arsenal of custom weapons and folklore-inspired monsters.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Austrian_Avian_Association",
     "https://www.doomworld.com/vb/thread/135951",
     "https://www.doomworld.com/cacowards/2023/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

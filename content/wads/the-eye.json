@@ -7,7 +7,7 @@
     }
   ],
   "year": 2012,
-  "description": "A fairly tough single map with a circular layout and moments of mild carnage",
+  "description": "The Eye is a challenging single-level PWAD for Doom II featuring a circular layout through flesh-lined halls, blood sewers, and stone chambers. Players must navigate tough encounters and slaughter-style traps to gather three skull keys on the outer rim before fighting their way up a massive central spiral staircase.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/The_Eye",
     "https://www.doomworld.com/19years/",
     "https://www.doomworld.com/forum/topic/62357-the-eye-now-on-idgames/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

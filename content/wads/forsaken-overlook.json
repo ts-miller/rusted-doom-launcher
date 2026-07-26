@@ -7,7 +7,7 @@
     }
   ],
   "year": 2013,
-  "description": "This map is one of the many parts of the Secret Santa Imitation Project, led by Brian \"Snakes\" Knox. It was meant to imitate the style of Chris \"lupinx-Kassman\" Kassap, and is designed for Single Player, Co-op, and Deathmatch play. A lonely medieval outpost overlooking a large sea sits on the edge of the world. In it lies a magical sword of power, waiting to be taken by a brave adventurer. But be warned - rumor has it that the sword was sealed away in order to keep an alleged curse placed on ...",
+  "description": "Forsaken Overlook is a single-level PWAD for Doom II set in a lonely medieval outpost overlooking a large sea at the edge of the world. Designed for single-player, co-op, and deathmatch modes, the map tasks players with retrieving a cursed, magical sword of power. It features the music track Fallen Sun by James Paddock.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -46,5 +46,6 @@
     "https://doomwiki.org/wiki/Forsaken_Overlook",
     "https://www.doomworld.com/vb/thread/60264",
     "https://www.doomworld.com/20years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

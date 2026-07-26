@@ -7,7 +7,7 @@
     }
   ],
   "year": 2021,
-  "description": "9 + 1 (+ 1?) limit-removing levels for Doom II. Designed with stock Doom II resources in mind, utilizing the lovely skies provided by Mek's \"box o' skies\". You may see a familiar space or two I implore you treat them as if they were new For the love from which these lands are derived Has been waiting patiently for you to arrive May your heart's true will Be ultimately fulfilled For eternity",
+  "description": "Arrival is an 11-map episode WAD for Doom II created by Walker Wright. Built using stock Doom II resources alongside skies provided by Mek's \"box o' skies\", the set features an original soundtrack composed by Brayden Hart.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Arrival",
     "https://www.doomworld.com/vb/thread/121263",
     "https://www.doomworld.com/cacowards/2021/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

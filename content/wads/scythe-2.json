@@ -7,7 +7,7 @@
     }
   ],
   "year": 2005,
-  "description": "This is the sequel to my old megawad \"Scythe\". Expect better looking and bigger levels. unfortunately, the last 3 levels are missing, because I am so lazy and I haven't been satisfied with my attempts at making map28. I _might_ release the last 3 maps some time in the future, but do not count on it. (Update: the last 3 maps are now completed!)",
+  "description": "Scythe 2 is a 32-level megawad for Doom II featuring large and complex maps divided into six distinct thematic episodes. Finishing an episode strips the player's weapons and ammo via a death exit, forcing a pistol start. The set also introduces two custom monsters: a fast, plasma-firing Evil Marine and the floating, powerful Afrit.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -58,5 +58,6 @@
     "https://doomwiki.org/wiki/Scythe_2",
     "https://www.doomworld.com/vb/thread/32318",
     "https://www.doomworld.com/12years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

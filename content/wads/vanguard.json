@@ -7,7 +7,7 @@
     }
   ],
   "year": 2011,
-  "description": "12 Boom format levels for PrBoom+, ZDoom, or Eternity. A bonus 13th level is included for laughs. Inspired by Speed of Doom, Scythe 2, Alien Vendetta, and Plutonia. Originally Vanguard was intended to be a 32-level speedmapped megawad inspired by Speed of Doom's development cycle and Scythe 2's episodic structure.",
+  "description": "Vanguard is a Doom II episode replacement created by Paul DeBruyne. The set contains 12 main levels alongside a humorous 13th bonus map, drawing inspiration from Speed of Doom, Scythe 2, Alien Vendetta, and The Plutonia Experiment.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Vanguard",
     "https://www.doomworld.com/18years/",
     "https://www.doomworld.com/forum/topic/55256-vanguardwad-now-on-idgames/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

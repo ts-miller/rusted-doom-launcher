@@ -7,7 +7,7 @@
     }
   ],
   "year": 2019,
-  "description": "You've reached the shore of the Verdant Citadel, a stone bulwark on an island in an endless sea. It is inhabited by undead demonic caretakers who are responsible for keeping blood-thirsty, pain-delivering space marines like you from gaining a foothold. But that's never given you any pause before... Narrative fluff aside, I wanted to get better at non-linear layouts so ended up making this map. It is about as non-linear as I could stand to make it, and as a result there are a few ways to appro...",
+  "description": "Verdant Citadel is a single-level Doom II map set within a stone fortress on an island in an endless sea. Inhabited by undead demonic caretakers, the level features a heavily non-linear layout with multiple routes of varying difficulty. It includes custom music by KhydroDjent and has an estimated playtime of 25 to 35 minutes on Ultra-Violence.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Verdant_Citadel",
     "https://www.doomworld.com/vb/thread/105581",
     "https://www.doomworld.com/cacowards/2019/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

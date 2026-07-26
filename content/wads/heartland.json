@@ -7,7 +7,7 @@
     }
   ],
   "year": 2021,
-  "description": "Heartland is a 7 map episode set in the nation's decaying industrial heartland, developed exclusively for the Eternity Engine (4.02.00 or later). There are three main guiding principles in Heartland's design. 1. Heartland was created to be a technical demonstration of the capabilities of Eternity's advanced mapping featureset. 2. Heartland was created to be used as a reference for others who want to learn to make their own Eternity maps. 3. Heartland aspires to have the feeling of a 2010s blo...",
+  "description": "Heartland is an eight-level partial conversion set in a nation's decaying industrial heartland. Created by Paul DeBruyne, the release features an overhauled arsenal of weapons, an expanded roster of monsters, the OTEX texture pack, and a custom soundtrack composed by Stuart Rynn.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Heartland",
     "https://www.doomworld.com/vb/thread/120175",
     "https://www.doomworld.com/cacowards/2021/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

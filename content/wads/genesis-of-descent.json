@@ -7,7 +7,7 @@
     }
   ],
   "year": 2007,
-  "description": "A large map for the original Doom that uses a huge amount of scripting and ZDoom features while attemptimg to retain classic and fast paced Doom action.",
+  "description": "Genesis of Descent is a three-level mapset for Doom consisting of a brief intro cutscene and a large main level split across two parts. The set utilizes extensive scripting while attempting to retain classic, fast-paced Doom action. It features the Doom 64 music track \"Relentless Coil\" throughout the set.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -36,5 +36,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Genesis_of_Descent",
     "https://www.doomworld.com/14years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

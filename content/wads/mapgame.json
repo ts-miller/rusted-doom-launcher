@@ -7,7 +7,7 @@
     }
   ],
   "year": 2009,
-  "description": "Mapgame - Cacoward winner 2009",
+  "description": "Mapgame is a nine-level Ultimate Doom mapset created by Fletcher` that serves as an Episode 1 replacement. It features new textures, props, and a new palette file. Distinctive gameplay changes include replacing the chaingun with a flare gun and substituting the spider mastermind with a new sentry unit enemy.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Mapgame",
     "https://www.doomworld.com/16years/",
     "https://www.doomworld.com/forum/topic/46026-mapgame-finished-d/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

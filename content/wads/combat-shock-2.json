@@ -7,7 +7,7 @@
     }
   ],
   "year": 2012,
-  "description": "7 new slaughtermaps. Hard enough to turn you into a combat wounded veteran. Use pr/gl-boom+ for best performance. Complevel 9 or die!",
+  "description": "Combat Shock 2 is a seven-level episode for Doom II created by Daniel Jakobsson. The set features frequent slaughter map-style combats across its levels, along with new sprites for the zombieman, shotgun guy, and heavy weapon dude.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Combat_Shock_2",
     "https://www.doomworld.com/vb/thread/61564",
     "https://www.doomworld.com/19years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

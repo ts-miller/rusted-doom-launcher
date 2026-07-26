@@ -7,7 +7,7 @@
     }
   ],
   "year": 2007,
-  "description": "map01: mainly rusty metal, tech; map02: clean tech base, a bit hellish; --------------------------------------------------- Your mission: Seek three mystical skulls. Use their collective power to destroy the Source of Evil. --------------------------------------------------- Notes: I recommend to play map02 from pistol start. No jumping.",
+  "description": "Sine Die is a two-level Doom II PWAD created by Didy, featuring a rusty metal tech base and a clean, slightly hellish UN Headquarters. The mission requires players to seek three mystical skulls and use their collective power to destroy the Source of Evil.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -41,5 +41,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Sine_Die",
     "https://www.doomworld.com/14years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

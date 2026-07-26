@@ -7,7 +7,7 @@
     }
   ],
   "year": 2013,
-  "description": "Doom II The Way id Did is the long awaited sequel to 2011's Doom The Way id Did. It comprises 32 levels that endeavour to both look and play as though they've come from Dallas, 1994, from the very toiling hands of Sandy, John and American. The idea was originally kicked about by Jason Root aka Hellbent, whose passion for the game and knack for growing enthusiasm resulted in one of the most successful community collaborations in Doomworld history \u0096 not to mention an impressive collection of mo...",
+  "description": "Doom 2 the Way id Did is a megawad containing 33 levels designed to mimic the mapping styles of Sandy Petersen, John Romero, and American McGee. A continuation of Doom the Way id Did, the project endeavors to look and play like authentic 1994 levels, featuring secret stages themed after Commander Keen.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Doom_2_the_Way_id_Did",
     "https://www.doomworld.com/vb/thread/66113",
     "https://www.doomworld.com/20years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

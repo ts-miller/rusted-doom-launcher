@@ -7,7 +7,7 @@
     }
   ],
   "year": 2015,
-  "description": "Swift Death is an extremely hard megawad, calibrated for speedrunners. I recommanded for novice players to play in \"easy\" (\"Toilet Break\", or \"Soft Event\"). SD is realized in speedmapping sessions, for the most parts of maps. These maps are generally small, and contain on average 75 monsters. They are also compatible for the duel / deathmatch.",
+  "description": "Swift Death is a 32-level megawad created primarily through speedmapping sessions by Franck Livolant. Calibrated for speedrunners, its very small maps average 75 monsters each while delivering an extremely high difficulty level. The levels are also compatible with deathmatch play and feature easier difficulty modes recommended for novice players.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -46,5 +46,6 @@
     "https://doomwiki.org/wiki/Swift_Death",
     "https://www.doomworld.com/vb/thread/70656",
     "https://www.doomworld.com/22years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

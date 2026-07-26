@@ -7,7 +7,7 @@
     }
   ],
   "year": 2009,
-  "description": "Ghouls versus Humans is a class based deathmatch Wad which will bring the horrors of The Ghoul\u0092s Forest to the deathmatch arena! Players will be able to choose from the three main ghouls from Ghoul 3 or three different types of humans. Each human and ghoul has it\u0092s own unique abilities, strengths and weaknesses. Whether it be team based deathmatch or team last man standing, Ghoul vs Humans is a game mode that is not to be missed even if you hate the ghoul series!",
+  "description": "Ghouls vs Humans is a class-based team deathmatch mod that brings characters from The Ghoul's Forest into a multiplayer arena. Players select from three types of humans or three ghouls from Ghoul 3 across two distinct teams. Each class features unique abilities, advantages, and weaknesses for team deathmatch and team last man standing modes.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -35,5 +35,6 @@
   "_source": "cacowards-scraper",
   "urls": [
     "https://doomwiki.org/wiki/Ghouls_vs_Humans"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

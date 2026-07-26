@@ -7,7 +7,7 @@
     }
   ],
   "year": 2007,
-  "description": "This map is heavily inspired by Episode 4 of The Ultimate Doom, especially E4M1 and E4M6. It was originally made for a project called The Ninth Gate that never saw the light of day. Most of it was made (on and off) during 2001-03 using DoomCAD (the exit area was built using Doom Builder though). I didn't know you could select multiple linedefs in DoomCAD back then, so I was actually insane enough to manually select each and every linedef, apply the texture and align it. If only I had that kin...",
+  "description": "The Outer Darkness is a single-level PWAD for Ultimate Doom occupying the E4M1 slot. Heavily inspired by Episode 4, especially E4M1 and E4M6, the map features a straightforward layout and purely artistic lava that does not inflict damage. Its soundtrack pairs music from Duke Nukem 3D with tracks composed by Damian Lee.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -41,5 +41,6 @@
   "urls": [
     "https://doomwiki.org/wiki/The_Outer_Darkness",
     "https://www.doomworld.com/14years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

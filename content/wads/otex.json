@@ -7,7 +7,7 @@
     }
   ],
   "year": 2019,
-  "description": "A high-quality texture pack for Doom mapping containing over 1500 textures and flats. Used by many modern WADs as a resource dependency. Freely available for mappers.",
+  "description": "Created by Ola Bjorling (ukiro), OTEX is a texture resource pack featuring over 2,600 textures and 1,300 flats in the classic Doom style with modern twists. It encompasses a wide range of themes, from tech and concrete to ice and brick, alongside 51 skies, custom switch pairs, and 77 animated textures.",
   "iwad": "doom2",
   "type": "resource-pack",
   "sourcePort": "boom",
@@ -40,5 +40,6 @@
   "urls": [
     "https://doomwiki.org/wiki/OTEX",
     "https://www.doomworld.com/vb/thread/103426"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

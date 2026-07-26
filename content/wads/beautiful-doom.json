@@ -7,7 +7,7 @@
     }
   ],
   "year": 2014,
-  "description": "A polish-focused enhancement mod for GZDoom. Adds smoother sprite animations (incorporating Smooth Doom monster frames), richer particle effects, improved lighting, and small quality-of-life fixes — without meaningfully changing gameplay. Drop-in compatible with most megawads.",
+  "description": "Beautiful Doom is a gameplay mod that enhances the visual presentation of Doom while keeping core gameplay intact. It adds smooth monster animations, a custom particle-based gore system, and enhanced visual effects for objects and projectiles. Players can switch between Vanilla, Enhanced, and Modern weapon sets, introducing alternate attack modes and rebalanced mechanics.",
   "iwad": "doom2",
   "type": "gameplay-mod",
   "sourcePort": "gzdoom",
@@ -30,11 +30,12 @@
     "qol"
   ],
   "difficulty": "unknown",
-  "notes": "[GitHub](https://github.com/jekyllgrim/Beautiful-Doom) • [ModDB](https://www.moddb.com/mods/beautiful-doom-6100) • GZDoom only.",
+  "notes": "[GitHub](https://github.com/jekyllgrim/Beautiful-Doom) \u2022 [ModDB](https://www.moddb.com/mods/beautiful-doom-6100) \u2022 GZDoom only.",
   "_schemaVersion": 1,
   "_source": "manual",
   "urls": [
     "https://github.com/jekyllgrim/Beautiful-Doom",
     "https://doomwiki.org/wiki/Beautiful_Doom"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

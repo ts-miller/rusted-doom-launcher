@@ -7,7 +7,7 @@
     }
   ],
   "year": 2012,
-  "description": "You wanted it, now you've got it, a 6 map hub for Strife. Requires a Zdoom compatible source port. A rough story? Well ok. Despite the main threat of the order being defeated, there are many other towns still under their fragmented rule. The front now has the resources to send agents to these outward places and attempt to destroy what's left of the tyranny. You have arrived in the small town of Sweetwater, where what few people survive live a near meaningless life that is under constant threat.",
+  "description": "Strife: Absolute Order is a six-level hub-based campaign set in the town of Sweetwater, where players act as an agent of The Front working to eliminate leftover Order forces. Starting in a central hub level, this mod features standalone stat-upgrade pickups for accuracy and stamina alongside custom music tracks.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Strife:_Absolute_Order",
     "https://www.doomworld.com/vb/thread/54783",
     "https://www.doomworld.com/19years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -7,7 +7,7 @@
     }
   ],
   "year": 2021,
-  "description": "Vanilla-compatable megawad",
+  "description": "Doom 2 in Spain Only is a 32-map megawad styled as a bootleg Spanish-language version of Doom II created by a fictitious company. A spin-off of the Doom the Way id Did series, it incorporates literal Google Translate translations for map names, HUD messages, and menu graphics. The project parodies Doom 2 In Name Only, crediting authors under spoofed pseudonyms.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Doom_2_in_Spain_Only",
     "https://www.doomworld.com/vb/thread/120623",
     "https://www.doomworld.com/cacowards/2021/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

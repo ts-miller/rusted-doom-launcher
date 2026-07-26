@@ -7,7 +7,7 @@
     }
   ],
   "year": 2006,
-  "description": "Newdoom Community Project - Cacoward winner 2006",
+  "description": "The Newdoom Community Project is a 32-level megawad for Doom II created by members of the Newdoom community. This collaborative project features custom maps from a wide variety of authors, showcasing diverse level designs alongside select custom music tracks.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -36,5 +36,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Newdoom_Community_Project",
     "https://www.doomworld.com/13years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

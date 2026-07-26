@@ -7,7 +7,7 @@
     }
   ],
   "year": 2007,
-  "description": "One level for any boom compatible and limit removing ports. PrBoom-Plus or GZDoom are recommended. To play this PWAD file, unzip it into the directory with your PWADs then start: glboom-plus.exe -file epic.wad -complevel 9 (g)zdoom.exe -file epic.wad Important: Do not play map05 in the current prboom (up to 2.4.8 for now), because of: a) All existing versions of prboom are buggy on levels with big open areas - precision problems. The latest Eternity release (3.33.33) also can't handle map05 c...",
+  "description": "Epic is a five-level WAD for Doom II created by Alexander S. (Eternal). It features visual sprite modifications to stock monsters, such as bandanas on heavy weapon dudes and dark brown imps with yellow eyes, without altering their underlying stats. The WAD also includes a custom soundtrack with tracks taken from games like Duke Nukem 3D and Hexen II.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -36,5 +36,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Epic",
     "https://www.doomworld.com/14years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

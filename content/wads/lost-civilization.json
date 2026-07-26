@@ -7,7 +7,7 @@
     }
   ],
   "year": 2019,
-  "description": "22 map megawad.",
+  "description": "Lost Civilization is a 22-level megawad for Doom II created by Jaakko Impola. Set in Earthly locales, it features exceptionally detailed, realistic, and large maps. Many of its levels offer non-linear gameplay.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Lost_Civilization",
     "https://www.doomworld.com/vb/thread/105215",
     "https://www.doomworld.com/cacowards/2019/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

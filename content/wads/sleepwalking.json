@@ -7,7 +7,7 @@
     }
   ],
   "year": 2024,
-  "description": "Sleepwalking is a snowy adventure across 3 MBF21 maps that exists because I made a few midis and wanted to make maps to accompany them. Wad was tested with dsda-doom 0.28.1 (-complevel 21) and GZDoom 4.8.2 (default compatibility). However, wad uses a few tricks that don't work as expected in gzdoom (secret transfers and some visual tricks), so playing in dsda is preferable. Map & music list: Map 01 - It's noisy outside Midi - \"Cat vs February\" Map 02 - Here come the whales Midi - \"Pinocchio D...",
+  "description": "Sleepwalking is a snowy Doom II set consisting of three playable maps and a credits level. Designed by Ravendesk, who also composed the soundtrack, the WAD features custom monsters, textures, and modified weapons such as a ripping Flak Cannon.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Sleepwalking",
     "https://www.doomworld.com/vb/thread/148433",
     "https://www.doomworld.com/cacowards/2024/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

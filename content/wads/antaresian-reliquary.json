@@ -7,7 +7,7 @@
     }
   ],
   "year": 2020,
-  "description": "Antaresian Reliquary is a compilation of levels, designed for various community projects for the last 4 years. Seven levels with different themes and limitations were selected for this compilation, and the wad is designed as boom-compatible with some custom gameplay elements, such as new enemies and weapons. It is recommended to read the details about the gameplay changes, before you start playing this wad. Also, each level has a death exit, making every level starts with forced pistol start....",
+  "description": "Antaresian Reliquary is a nine-level PWAD for Doom II compiled from maps created for various community projects alongside two new additions. Featuring varied level themes, every stage utilizes a death exit to enforce a pistol start. It introduces DeHackEd gameplay modifications, including altered weapon stats, revised ammo capacities, and custom enemy replacements.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Antaresian_Reliquary",
     "https://www.doomworld.com/vb/thread/114478",
     "https://www.doomworld.com/cacowards/2020/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

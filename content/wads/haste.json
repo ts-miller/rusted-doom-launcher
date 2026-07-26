@@ -7,7 +7,7 @@
     }
   ],
   "year": 2021,
-  "description": "A wad of compact, high impact slaughter maps.",
+  "description": "Haste is an eighteen-map Doom II megawad created by various mappers known for their work in the slaughter map genre. The set consists of compact, high-impact slaughter maps offering challenging combat.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Haste_(WAD)",
     "https://www.doomworld.com/vb/thread/124700",
     "https://www.doomworld.com/cacowards/2021/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

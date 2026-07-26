@@ -7,7 +7,7 @@
     }
   ],
   "year": 2010,
-  "description": "You wake up in your house. And you're all alone. The only thing that is with you, is your sanity. Or is it?",
+  "description": "Unloved is a five-map, hub-based psychological horror mod titled House of Memories, where players wake up alone in a house. To convey its dark, brooding atmosphere, the mod features custom graphics, many new custom enemies, and a soundtrack partly based on horror films.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Unloved",
     "https://www.doomworld.com/vb/thread/48690",
     "https://www.doomworld.com/17years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

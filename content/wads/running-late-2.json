@@ -7,7 +7,7 @@
     }
   ],
   "year": 2020,
-  "description": "16-ish Boom compatible levels. ZDoom based ports will have to level warp in order to access the secret levels, since Map14 sends you to the EndDoom screen. BOOM ports can access these maps regularly from Map15.",
+  "description": "Running Late 2 is a megawad created by A2Rob consisting of 16 main levels and two secret maps. Designed around pistol-start balance, the megawad features skill-level scaling alongside slaughter-style gameplay on select maps. It also introduces two custom enemies: a plasma-firing security guard and a melee-only boxer revenant.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Running_Late_2",
     "https://www.doomworld.com/vb/thread/111077",
     "https://www.doomworld.com/cacowards/2020/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

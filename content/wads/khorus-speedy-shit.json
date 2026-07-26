@@ -7,7 +7,7 @@
     }
   ],
   "year": 2011,
-  "description": "A vanilla megawad for Doom 2 containing 32 short, chaotic and challenging maps. The wad's premise was to create at least one speedmap a day. There was no set time limit, times ranged from 1.5 to 3.5 hours. Don't let the word \"speedmap\" scare you off though! In the author's opinion, this wad contains many of his best maps to date.",
+  "description": "Khorus' Speedy Shit is a 32-map Doom II megawad by Adam Woodmansey, with secret levels contributed by guest mappers Brian Knox and Tango. Created at a pace of at least one map per day, the set consists of short, chaotic, and challenging speedmaps built in 1.5 to 3.5 hours each. The megawad includes a soundtrack drawn from Doom, TNT: Evilution, Strife, and Heretic.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Khorus%27_Speedy_Shit",
     "https://www.doomworld.com/18years/",
     "https://www.doomworld.com/forum/topic/57690-khorus-speedy-shit-all-maps-completed-idgames-download-available/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

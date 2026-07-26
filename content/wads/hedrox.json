@@ -7,7 +7,7 @@
     }
   ],
   "year": 2005,
-  "description": "A really short but very intense single player map.",
+  "description": "Designed by Rodrigo Acevedo, HeDRoX is a single-level Doom II PWAD set in a compact techbase. This short but intense map features highly detailed, unusual architecture and uses Lee Jackson's \"Plasma\" track from Duke Nukem 3D.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -45,5 +45,6 @@
   "urls": [
     "https://doomwiki.org/wiki/HeDRoX",
     "https://www.doomworld.com/12years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

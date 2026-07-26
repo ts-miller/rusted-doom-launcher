@@ -7,7 +7,7 @@
     }
   ],
   "year": 2018,
-  "description": "A 32-level megawad spanning 6 themed chapters from ancient civilizations to futuristic hellscapes. Features custom monsters, new weapons, and an original soundtrack. One of the most acclaimed megawads of all time.",
+  "description": "Eviternity is a 32-level megawad divided into six episodes featuring themes such as medieval castles, techbases, brutalism, hell, and heaven. The project exclusively uses the high quality OTEX texture pack by ukiro. Gameplay features an upgraded pistol with an increased rate of fire, alongside several custom monsters and adjusted enemy health.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "mbf21",
@@ -92,5 +92,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Eviternity",
     "https://www.doomworld.com/cacowards/2019/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

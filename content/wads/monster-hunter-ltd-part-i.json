@@ -7,7 +7,7 @@
     }
   ],
   "year": 2014,
-  "description": "industrial and city theme",
+  "description": "Monster Hunter Ltd. Part I is a single-level map for Doom II designed by Didy. Set in an industrial and city environment, the level features a new attack dog enemy added via DeHackEd and uses a custom soundtrack composed by James Paddock.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -41,5 +41,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Monster_Hunter_Ltd._Part_I",
     "https://www.doomworld.com/21years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

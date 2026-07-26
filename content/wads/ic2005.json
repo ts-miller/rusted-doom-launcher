@@ -7,7 +7,7 @@
     }
   ],
   "year": 2005,
-  "description": "The likely final map in the ic200x series. A huge sprawling techbase with textures from a variety of sources.",
+  "description": "Created by Ian Cunnings, IC2005 is a single-level PWAD set in a huge, sprawling techbase. It features textures gathered from a variety of sources alongside a MIDI rendition of \"Descent Into Cerberon\" from Quake II for its soundtrack.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -97,5 +97,6 @@
   "urls": [
     "https://doomwiki.org/wiki/IC2005",
     "https://www.doomworld.com/13years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

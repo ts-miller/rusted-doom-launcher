@@ -7,7 +7,7 @@
     }
   ],
   "year": 2022,
-  "description": "Dust Devil is a single player mission for GZDoom spread across two intertwined maps. You have been sent to a UAC outpost on a desert world to recover a mysterious artefact. Expect heavy resistance and some new surprises. Featuring new textures by Ukiro and music by Jimmy. GAMEPLAY INFO - This map used Hardware mode only features (3D Models, flatsprites) and cannot be played in Software mode - ensure video mode is set to Hardware before loading map or it may crash. This is a singleplayer map. ...",
+  "description": "Dust Devil is a single-level campaign spread across two intertwined maps set on an arid desert world. Blending a UAC research outpost with ancient temple ruins, the mission features interwoven level progression, an extended bestiary of custom monsters, OTEX textures, and the new Ragesphere power-up.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -46,5 +46,6 @@
     "https://doomwiki.org/wiki/Dust_Devil",
     "https://www.doomworld.com/vb/thread/127649",
     "https://www.doomworld.com/cacowards/2022/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

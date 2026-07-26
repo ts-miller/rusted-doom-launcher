@@ -7,7 +7,7 @@
     }
   ],
   "year": 2008,
-  "description": "A (very) mini TC consisting of 5 maps comprising one mission",
+  "description": "BGPA Missions: Liberation is a mini total conversion set on the planet of Mons Grampius. Spanning five objective-based maps across jungles, beaches, and fortified enemy complexes, the campaign pits players against the opposing Incanese army. It introduces an extensive lineup of custom enemies alongside new weapons and usable inventory items.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -36,5 +36,6 @@
   "urls": [
     "https://doomwiki.org/wiki/BGPA_Missions:_Liberation",
     "https://www.doomworld.com/15years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

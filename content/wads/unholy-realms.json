@@ -7,7 +7,7 @@
     }
   ],
   "year": 2013,
-  "description": "32 new limit-removing maps created by one author (and 5 guest mappers). Gameplay-oriented. See urinfo.txt for more info.",
+  "description": "Unholy Realms is a gameplay-oriented Doom II megawad consisting of 32 limit-removing maps. Designed primarily by Brian Knox alongside five guest mappers, the set features action-focused level design paired with an original soundtrack composed entirely by John Weekley.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Unholy_Realms",
     "https://www.doomworld.com/vb/thread/65688",
     "https://www.doomworld.com/20years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

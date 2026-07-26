@@ -7,7 +7,7 @@
     }
   ],
   "year": 2018,
-  "description": "Preacher is a 9 map boom compatible episode. You play as a mad preacher who hears a voice in his head impelling him to take down all evil in the World. Layouts are open and non linear, and start spots are randomized. There are graphic and sound replacements, but weapon and enemy behaviours are untouched.",
+  "description": "Preacher is a 10-level PWAD centered on medieval Christianity, in which players play as a mad preacher impelled to take down evil. The levels feature open, non-linear layouts with randomized start spots. Graphic and sound replacements are included along with music from Darch and Those Poor Bastards, while original weapon and enemy behaviors remain untouched.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Preacher",
     "https://www.doomworld.com/vb/thread/68940",
     "https://www.doomworld.com/cacowards/2018/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

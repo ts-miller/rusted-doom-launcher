@@ -10,7 +10,7 @@
     }
   ],
   "year": 2024,
-  "description": "Simulacrum is a set of 32 maps in MBF21 format by muumi and myolden. This set starts modestly but steadily climbs into challenge and slaughter territory in the later maps. Difficulties and Coop are implemented. Target source port is DSDA-Doom, your mileage may vary in other ports. No jumping/crouching.",
+  "description": "Simulacrum is a 32-level megawad for Doom II created by Muumi and Alex Decker. Starting modestly, the campaign steadily climbs into challenge and slaughter territory in the later maps. The mod includes custom PLAYPAL and COLORMAP lumps, along with the plasma gun sound from Doom 3.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -40,5 +40,6 @@
     "https://doomwiki.org/wiki/Simulacrum",
     "https://www.doomworld.com/vb/thread/145709",
     "https://www.doomworld.com/cacowards/2024/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

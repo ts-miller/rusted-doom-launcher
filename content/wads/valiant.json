@@ -7,7 +7,7 @@
     }
   ],
   "year": 2015,
-  "description": "Valiant is a MBF megawad for Doom II featuring 32 new maps spanning 5 themed episodes. Each map is designed to be played from a pistol start, but some effort has been made to support continuous play as well. Additionally, Valiant includes a number of new monsters and weapons implemented through an extensive MBF format DeHackEd patch. As a result, Valiant is not compatible with gameplay mods, and can only be played in ports with full MBF DeHackEd support. At present, these include ZDoom, GZDoo...",
+  "description": "Valiant is a 32-map megawad spanning five themed episodes that pits the player against a bioengineered, cybernetic apocalypse. Designed for pistol starts, it features an enhanced monster roster and modified weapons, including faster-firing firearms and custom enemy variants created through extensive DeHackEd work.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -82,5 +82,6 @@
     "https://doomwiki.org/wiki/Valiant",
     "https://www.doomworld.com/vb/thread/71704",
     "https://www.doomworld.com/22years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

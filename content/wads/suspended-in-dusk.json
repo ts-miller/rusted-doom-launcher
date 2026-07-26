@@ -7,7 +7,7 @@
     }
   ],
   "year": 2005,
-  "description": "A set of four levels, which all push the limits of the good ol' vanilla Doom. If your computer refuses to cooperate with doom2.exe, I recommend Chocolate Doom: http://chocolate-doom.sourceforge.net/ Has also been tested and found functional on ZDoom. Other ports may or may not break some effects. I really don't recommend playing this on a 3D-accelerated port.",
+  "description": "Suspended in Dusk is a four-level Doom II mod in which the player enters an infested UAC base and must fight through to a small space ship to escape. It features careful texture alignment and intricate detailing while pushing the static limits of vanilla Doom.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Suspended_in_Dusk",
     "https://www.doomworld.com/vb/thread/34101",
     "https://www.doomworld.com/12years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -7,7 +7,7 @@
     }
   ],
   "year": 2007,
-  "description": "The third installment of the series, Community Chest 3 boasts 32 maps made by 20 different authors from the Doom community. After one year of work, they have been made available for your enjoyment.",
+  "description": "Community Chest 3 is a 32-level Doom II megawad created by 20 authors from the Doomworld community. Serving as the third installment in the series, it features a customized soundtrack and is the first entry to include built-in gameplay demos.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -36,5 +36,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Community_Chest_3",
     "https://www.doomworld.com/14years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

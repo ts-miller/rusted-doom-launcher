@@ -7,7 +7,7 @@
     }
   ],
   "year": 2015,
-  "description": "SKULLDASH OVERVIEW: Welcome to Skulldash, the fast-paced speedrun arcade mod For Doom II. The objective in skulldash is to collect the Skulltokens scattered around each level to unlock the exit. While collecting the Skulltokens you have to race against the clock, as there is a time limit to beat \u00e2\u0080\u0093 all while defending yourself from the hordes of monsters from hell. FAST PACED GAMEPLAY: While on the hunt for the hundreds of Skulltokens scattered across the various realms, you\u00e2\u0080\u0099re having to r...",
+  "description": "Skulldash is a fast-paced arcade megawad where players must collect Skulltokens within a strict time limit to unlock each level's exit. Featuring a tier-based level hub, the campaign spans environments like tech bases, Aztec temples, icy caverns, and space. Players battle standard and custom monsters, search for secret blue Skulltokens for bonus time, and take on distinct bosses.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Skulldash",
     "https://www.doomworld.com/vb/thread/75133",
     "https://www.doomworld.com/22years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

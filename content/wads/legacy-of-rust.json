@@ -13,7 +13,7 @@
     }
   ],
   "year": 2024,
-  "description": "The brand-new official episode duo shipped with Doom + Doom II (2024): sixteen levels built on the id24 spec, featuring new weapons like the Incinerator and Calamity Blade plus new enemy types. Requires a modern source port with id24 support (GZDoom 4.13+).",
+  "description": "Legacy of Rust is a 16-map Doom II expansion set across the UAC's ruined base in a remote region of Hell known as New Eden. Divided into two eight-map episodes, the expansion features six new enemies, two new weapons, and textures based on cut content, accompanied by an all-new soundtrack.",
   "iwad": "doom2",
   "type": "episode",
   "sourcePort": "gzdoom",
@@ -40,5 +40,6 @@
   "_source": "manual",
   "urls": [
     "https://doomwiki.org/wiki/Legacy_of_Rust"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

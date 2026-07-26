@@ -7,7 +7,7 @@
     }
   ],
   "year": 2014,
-  "description": "6 map hub for Hexen based around the world of Chronos. Story",
+  "description": "Shadows of Chronos is a six-level Hexen PWAD set in the aftermath of the original story. The three heroes journey to the fallen capital of Chronos, which has been overtaken by evil forces formerly loyal to Korax. Connected via a single hub, the maps feature traditional Hexen gameplay, custom graphics, and a soundtrack composed by Kevin Schilder.",
   "iwad": "hexen",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Shadows_of_Chronos",
     "https://www.doomworld.com/vb/thread/68969",
     "https://www.doomworld.com/21years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -7,7 +7,7 @@
     }
   ],
   "year": 2009,
-  "description": "This project started on January 10, 2006. The first NDCP had been completed and released. Towards the end of that project talk had been going on about a sequel, and thus this project was formed. PumpkinSmasher took the reigns as project leader and started map sign-ups. The goal was not to take near as long as is took to finish the first NDCP. This goal was not achieved.",
+  "description": "NewDoom Community Project II is a 32-level megawad for Doom II created by members of the NewDoom community. It features custom MIDI soundtrack selections and a DeHackEd patch that introduces two new monsters: the exploding Slomnibus and the crouching Possessed CloneMarine.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/NewDoom_Community_Project_II",
     "https://www.doomworld.com/vb/thread/46094",
     "https://www.doomworld.com/16years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

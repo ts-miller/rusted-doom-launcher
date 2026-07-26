@@ -7,7 +7,7 @@
     }
   ],
   "year": 2011,
-  "description": "Clear the heretical forces from the frozen caverns",
+  "description": "Designed by Christopher Lutz, Icebound is a single-level Heretic PWAD set within frozen caverns. Players are tasked with clearing heretical forces while exploring a landscape of ice, waterfalls, lava, and a castle entrance. The level begins at a docked boat and leads through cavernous paths connected by bridges and lifts.",
   "iwad": "heretic",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -45,5 +45,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Icebound",
     "https://www.doomworld.com/18years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

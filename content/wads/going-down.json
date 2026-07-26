@@ -7,7 +7,7 @@
     }
   ],
   "year": 2014,
-  "description": "Something sinister is lurking in UAC headquarters. Grab your gun, head to the roof and shoot your way down through the building to get to the bottom of the mystery. This is a 32 map Doom 2 megawad - boom format, complevel 9. Each map is a floor, each floor has a lift, each lift needs a key. You'll work it out I'm sure, just keep going down. These are small, fairly hard maps with high body-counts, and gameplay I would describe as 'chaotic-evil'. The music tracks are my own compositions which y...",
+  "description": "Going Down is a 32-level Doom II megawad set in a UAC office skyscraper, where the player fights from the roof down to the bottom floor. Each small level represents a single floor featuring a lift that requires a key. The set features hard, high-body-count 'chaotic-evil' gameplay and an original soundtrack composed by Cyriak Harris.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Going_Down",
     "https://www.doomworld.com/vb/thread/65955",
     "https://www.doomworld.com/21years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

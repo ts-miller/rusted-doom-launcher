@@ -7,7 +7,7 @@
     }
   ],
   "year": 2012,
-  "description": "A 3 episode vanilla megawad for Doom 1 containing a total of 27 maps. Set on one of Jupiter's moons called Ganymede, this wad should provide a challenge for a wide variety of skill levels ranging from the humble newbie to veteran speedrunner. Each episode has it's own progression rather than the usual base -> hellbase -> hell.",
+  "description": "Base Ganymede: Complete is a 27-map, three-episode megawad for Doom 1 set on Jupiter's moon, Ganymede. Created by Adam Woodmansey, it offers a challenge for players ranging from humble newbies to veteran speedrunners. Rather than following the usual base-to-hell structure, each episode features its own progression.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -36,5 +36,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Base_Ganymede",
     "https://www.doomworld.com/19years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

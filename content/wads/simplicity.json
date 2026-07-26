@@ -7,7 +7,7 @@
     }
   ],
   "year": 2005,
-  "description": "Ultimate Simplicity is a megawad comprised of 3 episodes, including 30 maps. It is essentially an overhauled version of the original Simplicity, with vast improvements made overall. See the NOTES section for more detailed information.",
+  "description": "Simplicity is a fast-paced 21-level megawad spanning tech bases and hellish environments. Designed for direct, vanilla-style gameplay, it features short maps and custom enemies such as the Hectebus and Goat lord. A secret level also incorporates weapons, props, and enemies from Rise of the Triad.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Simplicity",
     "https://www.doomworld.com/vb/thread/31514",
     "https://www.doomworld.com/12years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

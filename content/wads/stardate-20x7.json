@@ -7,7 +7,7 @@
     }
   ],
   "year": 2017,
-  "description": "*** PLAY ON HMP/HNTR *** 9 Boom-compatible maps (i.e. prb+ cl9). Explore a mostly-purple world of villages, space bases, temples, and beyond!! These maps are really god damn hard. I put most of my time and effort into making HMP the intended difficulty setting, it's by far the most fun and balanced. Think of Stardate20x7's HMP as everyone else's UV. Similarly, HNTR was balanced to be comparable to other challenging mapsets on HMP. UV is NOT the intended way to play the levels on a first playt...",
+  "description": "Stardate 20X7 is an eleven-map Doom II set built around a distinctive purple palette. Exploring a world of villages, space bases, and temples, the levels mix cramped encounters with slaughtermaps. Combat is specifically balanced around the Hurt Me Plenty difficulty, reserving Ultra-Violence as an extreme bonus challenge.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Stardate_20X7",
     "https://www.doomworld.com/vb/thread/85502",
     "https://www.doomworld.com/24years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

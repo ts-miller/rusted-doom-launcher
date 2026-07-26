@@ -10,7 +10,7 @@
     }
   ],
   "year": 2009,
-  "description": "Whispers of Satan is a 30 level add-on for id software's game Doom 2: Hell on Earth requiring a Boom compatible source port.",
+  "description": "Whispers of Satan is a 32-level Doom II megawad set in the distant future, where players start on Earth and progress into the depths of Hell. Created by Paul Corfiatis and Kristian Aro, it features original music composed by both authors along with a new cyberdemon variant enemy known as the Cybie.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -40,5 +40,6 @@
     "https://doomwiki.org/wiki/Whispers_of_Satan",
     "https://www.doomworld.com/16years/",
     "https://www.doomworld.com/forum/topic/43100-whispers-of-satan-released/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

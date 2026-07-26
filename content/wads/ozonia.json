@@ -7,7 +7,7 @@
     }
   ],
   "year": 2021,
-  "description": "Ozonia is the third mapset of the Moonblood series, containing 32 carefully designed short maps with compatibility level 9. It's my most ambitious project by far and hopefully the most refined of the trilogy! It's heavily inspired by Plutonia, but it has its own flavor to create a refreshing and unique classic Doom experience! Eviternity, Ancient Aliens, BTSX series and Monti's work are also other big influences. The levels are as difficult as Eviternity with very low enemy count and strategi...",
+  "description": "Ozonia is a 32-map Doom II megawad and the third installment in the Moonblood series, created primarily by Tom\u00e1s Soares. Inspired heavily by The Plutonia Experiment, it features short levels centered on exploration, low enemy counts, and strategic setpiece encounters. The mapset introduces two custom monsters, the Hierophant and the Hellion, alongside a custom soundtrack composed mostly by Soares.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Ozonia",
     "https://www.doomworld.com/vb/thread/103371",
     "https://www.doomworld.com/cacowards/2022/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -7,7 +7,7 @@
     }
   ],
   "year": 2009,
-  "description": "World War III ended with massive use of biological weaponry. 99% of Earth population died almost immediately. Remaining people who were immune hid themselves in underground shelters escaping from the individuals who also survived but went completely insane. 50 years later your \"family\" received an unreadable radio transmission from a nearby town. You were sent to investigate... (see docs/author.notes.txt for techincal info)",
+  "description": "Set on a nearly deserted Earth 50 years after a biological World War III, this eight-map episode follows a protagonist investigating an unreadable radio transmission from a nearby town. The player fights off zombies, crazed cultists, and Hoplite warriors across solo play maps featuring dedicated boss areas.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -36,5 +36,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Tribute_-_this_is_not_the_best_wad_in_the_world",
     "https://www.doomworld.com/16years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }
