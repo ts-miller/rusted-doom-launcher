@@ -7,7 +7,7 @@
     }
   ],
   "year": 2011,
-  "description": "9 maps with unusual/original themes. Computer circuits, virtual worlds, aircraft squadron in flight and much more!",
+  "description": "Mandrill Ass Project is a 9-map episode replacement PWAD for Doom II created by Aluqah. The project features a series of whimsical and unusual themes, sending players through environments such as computer circuits, virtual worlds, and an aircraft squadron in flight.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -36,5 +36,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Mandrill_Ass_Project",
     "https://www.doomworld.com/18years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

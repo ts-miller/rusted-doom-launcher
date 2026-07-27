@@ -7,7 +7,7 @@
     }
   ],
   "year": 2008,
-  "description": "All maps are: (i) medieval-themed, and generally very large compared to typical DooM maps; (ii) non-linear and feature multiple paths; (iii) feature castle and fortress architecture, fights on an epic scale, and magnificent vistas. Maps 08-10 can be played in any order within the hub, and powerups & enemies are different in any given map depending on whether you play it first or play it after entering from another map. This provides additional replay value. This is a 7-map demo. TeamTNT inten...",
+  "description": "Eternal Doom IV: Return from Oblivion is a 7-map medieval-themed WAD featuring fortress architecture and large, non-linear environments with multiple paths. The map set includes a central hub where level order dynamically changes powerups and enemy placements, along with a sizable roster of new custom monsters.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Eternal_Doom_IV:_Return_from_Oblivion",
     "https://www.doomworld.com/vb/thread/42186",
     "https://www.doomworld.com/15years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

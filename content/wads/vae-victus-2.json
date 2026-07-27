@@ -7,7 +7,7 @@
     }
   ],
   "year": 2006,
-  "description": "Vae Victus II is an all new level set for Doom 2 utilizing new graphics and music. The episode consists of 7 levels of varying themes and difficulty. The first Vae Victus was an attempt to honor the traditional gameplay of Alien Vendetta and other classic megawads; however, VV2 is a more balanced approach that provides challenging battles without the swarms of roaming enemies. The architecture is improved over last year's offering, and is more refined in it's concept and design. I am a classi...",
+  "description": "Vae Victus 2 is a seven-level episode replacement for Doom II created by Derek Braun. Featuring custom graphics and music across varying level themes, the WAD provides a balanced approach to challenging combat without swarms of roaming enemies. Every map supports difficulty settings, co-op play, and can be beaten from a pistol start.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Vae_Victus_2",
     "https://www.doomworld.com/vb/thread/38147",
     "https://www.doomworld.com/13years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

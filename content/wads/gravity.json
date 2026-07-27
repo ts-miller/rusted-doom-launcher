@@ -7,7 +7,7 @@
     }
   ],
   "year": 2008,
-  "description": "Two levels for any limit removing port. PrBoom-Plus with gamma 1 or GZDoom are recommended.",
+  "description": "Gravity is a two-level release by Alexander S. (Eternal) set in a citadel and a castle. Built using majestic and surreal architecture, the levels feature a soundtrack with music adapted from Windows 95, AC/DC, and Metroid Fusion.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -36,5 +36,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Gravity",
     "https://www.doomworld.com/15years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

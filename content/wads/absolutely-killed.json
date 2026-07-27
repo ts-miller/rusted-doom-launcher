@@ -7,7 +7,7 @@
     }
   ],
   "year": 2016,
-  "description": "A full episode of short, concept-oriented maps for Ultimate Doom. Beware: Not your traditional Doom WAD.",
+  "description": "Created by scwiba, Absolutely Killed is a nine-level episode replacement WAD for Ultimate Doom. It features a full episode of short, concept-oriented maps that differ from traditional Doom layouts. The set includes seven music tracks reused from Robert Prince's original score, as well as four built-in demos.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Absolutely_Killed",
     "https://www.doomworld.com/23years/",
     "https://www.doomworld.com/forum/topic/86495-absolutely-killed-an-ultimate-doom-episode-final-version-up-on-idgames/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

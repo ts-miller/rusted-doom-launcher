@@ -7,7 +7,7 @@
     }
   ],
   "year": 2015,
-  "description": "Another hero visits the ground zero site in Switzerland, a few changes have occured.",
+  "description": "Return to Hadron is a Doom megawad and episode replacement series created by Matt Powell. Set at a futuristic version of Switzerland's CERN Large Hadron Collider, the maps follow another hero visiting the ground zero site. Partially based on Powell's earlier megawad ConC.E.R.Ned, the levels feature custom monsters including the beam zombie and mini-mind.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Return_to_Hadron",
     "https://www.doomworld.com/vb/thread/73189",
     "https://www.doomworld.com/22years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

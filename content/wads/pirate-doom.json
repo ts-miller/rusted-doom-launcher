@@ -7,7 +7,7 @@
     }
   ],
   "year": 2013,
-  "description": "Pirate Doom! A GZDoom TC with: - 18 maps of good old runnin' and gunnin' action; - eye patches, bandannas, beards and mustaches for all Doom monsters; - cutlass, flintlock, cannons and other rusty weapons; - cool caribbean music; - compatible with any mapset; - cooperative and deathmatch modes fully implemented; - Ships, islands, treasures and rum.",
+  "description": "Pirate Doom is an 18-map Doom II megawad created by Arch and inspired by the Monkey Island series. Set among Caribbean islands and pirate ships, the mod features new weapons like flintlocks and cutlasses, reskinned monsters wearing eye patches and beards, custom music, and new textures.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Pirate_Doom",
     "https://www.doomworld.com/vb/thread/60067",
     "https://www.doomworld.com/20years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

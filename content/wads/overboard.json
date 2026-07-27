@@ -7,7 +7,7 @@
     }
   ],
   "year": 2022,
-  "description": "Doom guy has taken a holiday from hell, but it turns into the holiday from hell. This is 6 maps of island-hopping mayhem for Doom 2 (boom format, complevel 9). These maps are small but reasonably violent. Difficulty is average, but expect the usual mayhem. After the 6 maps there is a \"game over\" map, and beyond that lies \"new game plus\", which lets you play the same adventure again on a harder difficulty.",
+  "description": "Overboard is a 15-level tropical megawad featuring short, violent island-hopping maps where Doomguy's holiday aboard a cruise ship is invaded by demons. After completing the initial six maps and an outro, a \"New Game Plus\" mode offers significantly harder versions of each stage. The set includes an original soundtrack, custom graphics, and a DeHackEd patch that speeds up pistol fire.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Overboard",
     "https://www.doomworld.com/vb/thread/130657",
     "https://www.doomworld.com/cacowards/2022/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -7,7 +7,7 @@
     }
   ],
   "year": 2024,
-  "description": "A sequel to the 2014 swashbuckling adventure, Pirate Doom. More maps, more hats, more moustaches, more beards!",
+  "description": "Pirate Doom II is a 32-level partial conversion megawad for Doom II created by Darch. A sequel to Pirate Doom, this swashbuckling adventure expands on its predecessor with a pirate theme featuring more maps, hats, moustaches, and beards. It includes a custom soundtrack composed primarily by Darch, alongside music by Jazz Mickle and tracks from the Monkey Island series.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Pirate_Doom_II",
     "https://www.doomworld.com/vb/thread/143805",
     "https://www.doomworld.com/cacowards/2024/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

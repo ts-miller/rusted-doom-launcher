@@ -7,7 +7,7 @@
     }
   ],
   "year": 2011,
-  "description": "The moon's orbit was slowed due to a headon collision with a giant ball of demons. Escape the moon before it crashes into the Earth! Lunatic includes 5 Boom-format maps for Doom 2. Please play Lunatic with PrBoom+, Zdoom, or Eternity.",
+  "description": "Lunatic is a five-level WAD for Doom II set on the moon, where the player must escape before it crashes into Earth following a collision with a giant ball of demons. It features two custom former humanoid enemies, including a plasma-rifle sergeant edit and a chaingunner that launches revenant missiles, accompanied by a custom soundtrack.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Lunatic",
     "https://www.doomworld.com/18years/",
     "https://www.doomworld.com/forum/topic/56593-lunaticwad-idgames-download-available/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

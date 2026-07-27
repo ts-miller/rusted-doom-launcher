@@ -10,7 +10,7 @@
     }
   ],
   "year": 2010,
-  "description": "33 challenging maps of a megawad.",
+  "description": "Speed of Doom is a 33-map megawad created by Josh Sealy and Darkwave0000 featuring challenging levels inspired by releases like Plutonia, Hell Revealed, and Scythe. To maintain a continuous feel throughout the campaign, the end of a map often looks like the start of the next. The megawad also includes a soundtrack largely composed by Stuart Rynn.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -40,5 +40,6 @@
     "https://doomwiki.org/wiki/Speed_of_Doom",
     "https://www.doomworld.com/vb/thread/45138",
     "https://www.doomworld.com/17years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

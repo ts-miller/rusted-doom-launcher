@@ -7,7 +7,7 @@
     }
   ],
   "year": 2015,
-  "description": "50 Shades of Graytall is a project designed around creating maps with interesting architecture and gameplay despite being limited to a selection of arguably hideous textures. Started in response to a silly post made in the Editing forum which led I and several others to attempt maps using the (slightly edited) rules in the post, hoping the result would be decent. Eventually opened up to the community and here we are! Hope you enjoy the maps and if you don't hey Doom projects cant be graytall ...",
+  "description": "50 Shades of Graytall is an 18-level megawad built around severe architectural design constraints. Each map limits visible wall textures to DOORTRAK, FIREBLU1, and GRAYTALL, combined with F_SKY1 and a single flat of the author's choice. The project aims to produce interesting gameplay and aesthetically pleasing architecture despite using these notoriously hideous textures.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/50_Shades_of_Graytall",
     "https://www.doomworld.com/vb/thread/69326",
     "https://www.doomworld.com/22years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

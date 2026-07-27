@@ -7,7 +7,7 @@
     }
   ],
   "year": 2010,
-  "description": "A GSTONE fortress, a red glowing sky, silhouetted bodies writhe on spikes in the distance, fortelling your fate.",
+  "description": "Drip Feed is a single-level release for Doom II set in a GSTONE fortress beneath a red glowing sky. Occupying the MAP30 slot, this map features a citadel where distant silhouetted bodies writhe on spikes, foretelling the player's fate.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -46,5 +46,6 @@
     "https://doomwiki.org/wiki/Drip_Feed",
     "https://www.doomworld.com/17years/",
     "https://www.doomworld.com/forum/topic/50902-drip-feed-released/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

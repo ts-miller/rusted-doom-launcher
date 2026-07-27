@@ -7,7 +7,7 @@
     }
   ],
   "year": 2017,
-  "description": "A set of 3 Boom-compatible maps for Doom II (with a decidedly Lovecraftian theme to the second and third), with epilogue maps on MAP04 and MAP30.",
+  "description": "Maskim Xul is a Doom II release featuring three main maps alongside two epilogue levels. Created by James Caldwell with a heavy Lovecraftian theme, it combines demon fighting with puzzle-solving. Extensive DeHackEd work adds a broad lineup of custom weapons, items, and new monsters culminating in a boss fight against Shub-Niggurath.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Maskim_Xul",
     "https://www.doomworld.com/vb/thread/69583",
     "https://www.doomworld.com/cacowards/2018/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -10,7 +10,7 @@
     }
   ],
   "year": 2024,
-  "description": "Official deathmatch map pack shipped with Doom + Doom II (2024). Arena-style multiplayer levels built on the id24 spec.",
+  "description": "id Deathmatch Pack #1 is a 26-level deathmatch megawad created for multiplayer play in Doom + Doom II. Designed by various authors, it includes maps co-authored by id Software's American McGee and Sandy Petersen. The set features a soundtrack with music from Doom, Doom II, TNT: Evilution, and Legacy of Rust.",
   "iwad": "doom2",
   "type": "deathmatch",
   "sourcePort": "gzdoom",
@@ -37,5 +37,6 @@
   "_source": "manual",
   "urls": [
     "https://doomwiki.org/wiki/IDDM1"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

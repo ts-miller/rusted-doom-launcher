@@ -7,7 +7,7 @@
     }
   ],
   "year": 2022,
-  "description": "A high ranking UAC communications technician travels to a",
+  "description": "The Magenta Spire is a 16-level partial conversion megawad divided into two episodes. Following a UAC communications technician investigating a remote research base, the campaign features abstract level design with colorful visuals. Gameplay is modified through custom color palettes, altered weapons, higher health caps, and new monsters.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/The_Magenta_Spire",
     "https://www.doomworld.com/vb/thread/121942",
     "https://www.doomworld.com/cacowards/2022/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

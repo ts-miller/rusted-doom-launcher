@@ -10,7 +10,7 @@
     }
   ],
   "year": 2026,
-  "description": "One of Everything is an MBF21 project where the mappers had to fulfil increasingly growing demands for the industrial mapping machine. The requirements start simple, but get progressively more complicated and involved. And here is the twist - the requirements are cumulative, so with each map a new requirement is added, but all the previous requirements still stay. Difficulty settings are implemented. On UV you can expect moderate difficulty with a smooth upward curve as the maps get longer and more complex.",
+  "description": "One of Everything is a 28-map megawad led by Ravendesk and created by the Pacifist Paradise Discord server. The project features a cumulative list of mapping requirements, where each level must satisfy its own unique condition alongside every requirement established by previous maps. The set includes modified weapons, new monster variants, and a smooth difficulty curve on UV.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "mbf21",
@@ -35,5 +35,6 @@
     "https://doomwiki.org/wiki/One_of_Everything",
     "https://www.doomworld.com/forum/topic/157936",
     "https://www.doomworld.com/idgames/?id=21999"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

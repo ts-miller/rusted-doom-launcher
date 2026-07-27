@@ -7,7 +7,7 @@
     }
   ],
   "year": 2005,
-  "description": "32 maps no bigger than 1024 X 1024. Some maps have areas outside the 1024 X 1024 block but they are not part of the playing area. The idea was to focus on quick and fun gameplay.",
+  "description": "Congestion 1024 is a 32-map megawad for Doom II focused on quick and fun gameplay. Designed by various authors, all maps feature playing areas constrained within a 1024x1024 boundary. The soundtrack includes original compositions alongside tracks from other sources.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Congestion_1024",
     "https://www.doomworld.com/vb/thread/27731",
     "https://www.doomworld.com/12years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

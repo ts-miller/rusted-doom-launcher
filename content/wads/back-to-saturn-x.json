@@ -7,7 +7,7 @@
     }
   ],
   "year": 2012,
-  "description": "Get Out Of My Stations is the first episode of Back to Saturn X, a three-episode partial conversion for Doom II. Back to Saturn X is fully compatible with Doom2.exe and Chocolate Doom. It has also been tested with Eternity Engine, PrBoom-Plus, ZDoom, GZDoom, and Risen3D.",
+  "description": "Back to Saturn X is a multi-episode Doom II megawad series built with an exclusive texture set, original music, and a custom palette and colormap. Its maps feature recurring station hubs that connect the levels across each episode. The title, episode names, map names, and text screen lyrics are derived from songs and albums by Guided by Voices.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -50,5 +50,6 @@
     "https://doomwiki.org/wiki/Back_to_Saturn_X",
     "https://www.doomworld.com/vb/thread/62529",
     "https://www.doomworld.com/20years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

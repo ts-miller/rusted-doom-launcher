@@ -7,7 +7,7 @@
     }
   ],
   "year": 2013,
-  "description": "6 easy (for me anyway) levels intended to be played on UV from pistol start without saves. I didn't consider continuous playing while making this wad. The general theme is green/brown bricks and nature with some city and tech elements.",
+  "description": "Kuchitsu is a six-level PWAD for Doom II designed for pistol-start play on Ultra-Violence without saving. Its maps present green and brown brick environments mixed with nature, city, and tech elements. The set offers easy levels paired with a custom soundtrack across all maps, intermission, and text screens.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Kuchitsu",
     "https://www.doomworld.com/vb/thread/62696",
     "https://www.doomworld.com/20years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

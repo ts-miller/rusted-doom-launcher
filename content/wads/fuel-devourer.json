@@ -7,7 +7,7 @@
     }
   ],
   "year": 2013,
-  "description": "Large fuel base full of monsters - go and kill them! Made for FDC#11.",
+  "description": "Fuel Devourer is a single-level Doom II PWAD set in a large fuel base full of monsters. Designed by C4tnt and Arthur O., the map features remixed music tracks by silentzorah for the level, title, and intermission screens. It also introduces a custom enemy: a white-coated, axe-wielding zombie that replaces the Wolfenstein SS.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Fuel_Devourer",
     "https://www.doomworld.com/20years/",
     "https://www.doomworld.com/forum/topic/65459-release-fuel-devourer-now-on-idgames/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

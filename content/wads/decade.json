@@ -7,7 +7,7 @@
     }
   ],
   "year": 2004,
-  "description": "A single player level for ZDoom.",
+  "description": "Decade is a single-player level created by Russell Pearson as a tenth-anniversary homage to Doom. The map uses detailed architecture and ACS scripting to evoke iconic areas from both Doom and Doom II. It is designed strictly for solo play and features the music track \"Sinister\" by Robert Prince.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -89,5 +89,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Decade",
     "https://www.doomworld.com/11years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

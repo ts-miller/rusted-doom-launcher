@@ -7,7 +7,7 @@
     }
   ],
   "year": 2013,
-  "description": "Stardate 20X6 is a set of 8 boom-compatible levels that are all about the color purple. I couldn't think of a wad that extensively used the color so I decided to spend some time and completely overdose on it. The levels meander through underground and space-station themes, and are filled with all sorts of abstract violet goodness. Much of the gameplay resembles the arena style typically found in slaughtermaps, but the monster counts (in general) aren't overwhelmingly high. The maps are very d...",
+  "description": "Stardate 20X6 is an eight-level set by Zachary Stephens featuring underground and space-station themes centered on the color purple. It replaces many green palette colors with purple, offering abstract visuals and arena-style slaughtermap gameplay. The maps are very difficult without overwhelmingly high monster counts, with options included for casual playthroughs.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Stardate_20X6",
     "https://www.doomworld.com/vb/thread/64351",
     "https://www.doomworld.com/20years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

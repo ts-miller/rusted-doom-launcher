@@ -7,7 +7,7 @@
     }
   ],
   "year": 2020,
-  "description": "One large and complex vanilla compatible map. Difficulty-wise this should be a bit less demanding than some of my previous works. Map 2 and 3 are just bonus stuff",
+  "description": "Mutabor is a three-level mapset for Doom II centered on a large, complex main map accompanied by a bonus puzzle level. The mod features a dominant green theme with recolored keys, items, and decorations. It upgrades the chaingun into a minigun and introduces two modified enemies: a green chaingun sergeant and a no-ammo trooper.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Mutabor",
     "https://www.doomworld.com/vb/thread/112651",
     "https://www.doomworld.com/cacowards/2020/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

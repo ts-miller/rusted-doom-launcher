@@ -7,7 +7,7 @@
     }
   ],
   "year": 2024,
-  "description": "Necromantic Thirst is a Boom compatible (-complevel 9) 32-map megawad developed by the French Doom Community (and friends), inspired by some well-known classic wads of yesteryear, and featuring a new take on the standard progression classic UAC techbases slowly but surely blend into a new, twisted, green and black hellish world. Beware of the evil spirit that inhabits these industrial and medieval worlds, or you might end up losing your sanity.",
+  "description": "Necromantic Thirst is a 32-map megawad created by the French Doom Community. Inspired by classic WADs of yesteryear, its progression transforms classic UAC techbases into a twisted, green and black hellish world spanning industrial and medieval environments. The set also introduces a custom monster called the Hunter of Darkness, a variant of the Hell knight with 750 hit points.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Necromantic_Thirst",
     "https://www.doomworld.com/vb/thread/149103",
     "https://www.doomworld.com/cacowards/2024/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

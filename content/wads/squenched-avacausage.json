@@ -7,7 +7,7 @@
     }
   ],
   "year": 2024,
-  "description": "It's 5 A.M., cloudy and threatening to rain as you drive down the desert highway, your ancient, beloved truck's engine furious about how long it's been driven. You aren't looking forward to going back to work after a time away from the big city, but this might just give you an excuse to put it off. And then with a final wail and muffled thud, it gives up, and streaks of flame flash through the gaps in the hood. You didn't know it was even possible for an engine to fail like that. Extended vac...",
+  "description": "Squenched Avacausage is a Doom II megawad by nova++ featuring 19 maps, an outro level, and a bonus level. Journey through the strange world of SquenchCon International Food-Similar Products Ltd. across office buildings, factories, trains, and the ocean floor. The set features a strong focus on environmental storytelling, chapter-based progression, modified monsters, and renamed weapons.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Squenched_Avacausage",
     "https://www.doomworld.com/vb/thread/128999",
     "https://www.doomworld.com/cacowards/2024/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

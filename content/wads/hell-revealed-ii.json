@@ -7,7 +7,7 @@
     }
   ],
   "year": 2003,
-  "description": "The long-awaited sequel to Yonatan Donner & Haggay Niv's \"Hell Revealed\".",
+  "description": "Hell Revealed II is a 32-map megawad for Doom II created by a 14-member team led by Jonas Feragen. Designed as a sequel to the original Hell Revealed with mapper Yonatan Donner's approval, it was considered one of the most difficult mapsets at the time of its release.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -41,5 +41,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Hell_Revealed_II",
     "https://www.doomworld.com/11years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

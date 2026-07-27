@@ -7,7 +7,7 @@
     }
   ],
   "year": 2016,
-  "description": "Legacy of Heroes is a Boom compatible episode for Doom 2 with 11 levels. The maps use the textures from Eternal Doom and the themes for the most are fantasy oriented. The maps also feature a more adventurous style and the level progression was made to make feel the episode like a continuous journey. Some levels are very long and all of them were desgned with pistol starts in mind. The last level has a custom dehacked boss. This is the first wad I started to work on it, the development started...",
+  "description": "Legacy of Heroes is an 11-level episode for Doom II with fantasy-oriented themes and textures from Eternal Doom. Structured as an adventurous continuous journey, the WAD features maps designed for pistol starts, including several very long levels. The campaign concludes with a DeHackEd boss fight against two maulotaurs firing mancubus and Hell knight projectiles.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Legacy_of_Heroes",
     "https://www.doomworld.com/vb/thread/72287",
     "https://www.doomworld.com/24years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

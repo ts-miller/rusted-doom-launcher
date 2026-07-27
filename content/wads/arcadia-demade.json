@@ -7,7 +7,7 @@
     }
   ],
   "year": 2010,
-  "description": "Rapture's vacationland. Side order of hellspawn.",
+  "description": "Arcadia Demade is a single-level map for Doom II created by Jean-Paul LeBreton. It presents a reinterpretation of the Arcadia and Farmer's Market areas from BioShock within the constrained feature set of the Doom engine. The level features a custom music track by John Weekley, a blue-tinted palette, and a new sky texture.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -41,5 +41,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Arcadia_Demade",
     "https://www.doomworld.com/17years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

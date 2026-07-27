@@ -7,7 +7,7 @@
     }
   ],
   "year": 2014,
-  "description": "Five maps, loosely Mayan in setting, with an assortment of DeHacked changes to alter monster behavior and a few other things. Notably, some monsters and projectiles are faster than their vanilla counterparts. If you typically play maps on UV, I would definitely recommend HMP for your first playthrough to avoid any potential frustration. Similarly, if you usually play on HMP by default, dropping the difficulty down to HNTR would probably be a good idea. UV is certainly doable on a first playth...",
+  "description": "Created by Tango, Mayan Mishap is a high-difficulty, five-level PWAD featuring a distinct Mayan setting. Built from refined speedmapped layouts, the WAD features a custom palette, new weapon sprites and sounds, and DeHackEd alterations. Monster behavior is reworked with faster projectiles and movement speeds, along with custom enemies like the flying greater mancubus and cyber baron.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Mayan_Mishap",
     "https://www.doomworld.com/vb/thread/70845",
     "https://www.doomworld.com/21years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

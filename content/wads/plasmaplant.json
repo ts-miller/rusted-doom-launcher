@@ -7,7 +7,7 @@
     }
   ],
   "year": 2013,
-  "description": "Plasmaplant was originally a \"plasma and pistol only\" idea for my now venerable Cabal series, and so the map is based off an almost 20 years old paper sketch. I changed the layout and style but kept the central gameplay ideas.",
+  "description": "Plasmaplant is a single-level map for Doom II created by Sverre Andr\u00e9 Kvernmo. Occupying the MAP01 slot, the level features a visual theme dominated by the color blue and heavy lighting contrast. Gameplay incorporates key-based progression, hidden secret passages, and the heavy use of stealth monsters.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -46,5 +46,6 @@
     "https://doomwiki.org/wiki/Plasmaplant",
     "https://www.doomworld.com/vb/thread/66705",
     "https://www.doomworld.com/21years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

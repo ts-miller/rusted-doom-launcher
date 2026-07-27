@@ -7,7 +7,7 @@
     }
   ],
   "year": 2006,
-  "description": "You materialize. A shotgun sits in front of you, beckoning you into the gloom. The air is crisp and cool. What is this place? Do not fall here, your soul will be forever trapped in this mournful land...",
+  "description": "Songs of the Damned is a single-level map for Doom II set in a crisp, gloom-filled land of marble courtyards and water pools. Players materialize with a shotgun to navigate key puzzles and battle heavy monster encounters. The level features a MIDI rendition of Rammstein's \"Feuer und Wasser\" for its music track.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -98,5 +98,6 @@
     "https://doomwiki.org/wiki/Songs_of_the_Damned",
     "https://www.doomworld.com/14years/",
     "https://www.doomworld.com/forum/topic/38851-songs-of-the-damned-released/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

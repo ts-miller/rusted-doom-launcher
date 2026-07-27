@@ -7,7 +7,7 @@
     }
   ],
   "year": 2004,
-  "description": "GROVE- THE STORY CONTINUES (...from where?)- In your garden, you can sometimes see an angry looking fat dude steal your mushrooms. He's Smugla. Whenever he takes them, he leaps into a deep hole in the floor like a rabbit. You've never catched him. One day you think \"Gee- I wonder why he lives in the ground?\" So one day, taking your pistol to blow that mushroom stealer to bits, you jump down the hole. \"Lets see how he enjoys my mushrooms now!\"... Whatever that means. You hit the bottom of the ...",
+  "description": "Grove is a single-level PWAD for Doom II set in a dark, tree-covered world under red skies. The map features original musical compositions by Bernard De Windt, tight ammunition and health supplies, and an in-game automap diagram that helps guide exploration through its forested environment.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -81,5 +81,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Grove",
     "https://www.doomworld.com/11years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

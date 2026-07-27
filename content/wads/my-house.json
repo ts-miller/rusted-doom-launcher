@@ -10,7 +10,7 @@
     }
   ],
   "year": 2023,
-  "description": "A single-level PK3 for Doom II that begins as a simple recreation of a childhood home but transforms into a deeply unsettling psychological horror experience with non-Euclidean geometry, mysterious secrets, and layers of hidden content that players are still discovering.",
+  "description": "My House is a single-level Doom II mod set in a suburban home that rapidly unfolds into a surreal, multi-layered experience. While advertised as a short ten-minute map, it features hours of hidden content, including mirror dimensions, collectible artifacts, and sprawling alternate environments such as a daycare, bathhouse, and airport.",
   "iwad": "doom2",
   "type": "single-level",
   "sourcePort": "gzdoom",
@@ -48,14 +48,19 @@
       "year": 2023
     }
   ],
-  "tags": ["horror", "psychological", "non-euclidean"],
+  "tags": [
+    "horror",
+    "psychological",
+    "non-euclidean"
+  ],
   "difficulty": "medium",
-  "notes": "Requires GZDoom/UZDoom with hardware renderer. April 2025 author's update — works on GZDoom 4.8.1 and newer, adds a few new areas.",
+  "notes": "Requires GZDoom/UZDoom with hardware renderer. April 2025 author's update \u2014 works on GZDoom 4.8.1 and newer, adds a few new areas.",
   "_schemaVersion": 1,
   "_source": "manual",
   "urls": [
     "https://doomwiki.org/wiki/My_House",
     "https://www.doomworld.com/forum/topic/134292-myhousewad/",
     "https://www.doomworld.com/cacowards/2023/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

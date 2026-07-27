@@ -7,7 +7,7 @@
     }
   ],
   "year": 2017,
-  "description": "Counterattack is a 7-map mini episode for Doom II. Each map was designed to be played from pistol-start; continuous play is fine but will make the play through much easier. This map set originally started out as a single map contribution to the Vinesauce map contest held in 2016 by Joel \"Vargskelethor\". The map in question (MAP02) was started on in early September, and finished on September 9th. Afterwards, I officially started the project on October 10th (shortly after finishing MAP04). My g...",
+  "description": "Counterattack is a seven-map mini-episode for Doom II featuring medium-to-large, highly-detailed levels designed for pistol-start play. Built primarily using stock Doom II textures, the layout offers multiple paths for high replayability and includes custom enemies such as Skull Turrets and the flying Gate Master bosses.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Counterattack",
     "https://www.doomworld.com/vb/thread/91125",
     "https://www.doomworld.com/24years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

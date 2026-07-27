@@ -2,7 +2,6 @@
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
-#     "google-genai",
 #     "requests",
 # ]
 # ///
@@ -25,8 +24,10 @@ import sys
 from pathlib import Path
 
 import requests
-from google import genai
-from google.genai import types
+
+import llm
+
+HEADERS = {"User-Agent": "DoomLauncher-WikiScraper/1.0"}
 
 LINK_EXTRACTION_PROMPT = """Analyze this DoomWiki HTML page for a Doom WAD/mod.
 
@@ -103,7 +104,7 @@ Return ONLY valid JSON, no markdown or explanation."""
 def fetch_page(url: str) -> str | None:
     """Fetch HTML content from URL."""
     try:
-        response = requests.get(url, timeout=30)
+        response = requests.get(url, headers=HEADERS, timeout=30)
         response.raise_for_status()
         return response.text
     except requests.RequestException as e:
@@ -112,53 +113,15 @@ def fetch_page(url: str) -> str | None:
 
 
 def extract_links(html: str) -> dict:
-    """Use Gemini to extract relevant links from the main page."""
-    client = genai.Client()
-
-    response = client.models.generate_content(
-        model="gemini-3-flash-preview",
-        contents=[f"HTML content:\n\n{html}\n\n{LINK_EXTRACTION_PROMPT}"],
-        config=types.GenerateContentConfig(
-            temperature=0.1,
-        ),
-    )
-
-    if response.candidates and response.candidates[0].content.parts:
-        text = response.candidates[0].content.parts[0].text
-        text = text.strip()
-        if text.startswith("```"):
-            text = text.split("\n", 1)[1]
-        if text.endswith("```"):
-            text = text.rsplit("```", 1)[0]
-        text = text.strip()
-        return json.loads(text)
-
-    return {"wad_title": "", "links": []}
+    """Use the LLM to extract relevant links from the main page."""
+    return llm.chat_json(f"HTML content:\n\n{html}\n\n{LINK_EXTRACTION_PROMPT}")
 
 
 def extract_metadata(combined_content: str) -> dict:
-    """Use Gemini to extract structured metadata from all page content."""
-    client = genai.Client()
-
-    response = client.models.generate_content(
-        model="gemini-3-flash-preview",
-        contents=[f"Combined wiki content:\n\n{combined_content}\n\n{METADATA_EXTRACTION_PROMPT}"],
-        config=types.GenerateContentConfig(
-            temperature=0.1,
-        ),
+    """Use the LLM to extract structured metadata from all page content."""
+    return llm.chat_json(
+        f"Combined wiki content:\n\n{combined_content}\n\n{METADATA_EXTRACTION_PROMPT}"
     )
-
-    if response.candidates and response.candidates[0].content.parts:
-        text = response.candidates[0].content.parts[0].text
-        text = text.strip()
-        if text.startswith("```"):
-            text = text.split("\n", 1)[1]
-        if text.endswith("```"):
-            text = text.rsplit("```", 1)[0]
-        text = text.strip()
-        return json.loads(text)
-
-    return {}
 
 
 def process_wad(url: str, max_subpages: int = 10) -> dict:

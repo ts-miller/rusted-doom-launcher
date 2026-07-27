@@ -7,7 +7,7 @@
     }
   ],
   "year": 2009,
-  "description": "Classic Doom with a Doom 3 touch! This Update includes some ZDoom members requests as Skippable Intro and biggest cutscene.",
+  "description": "Legacy of Suffering is a Doom 3-themed Doom II episode featuring eight story maps, a post-credits level, and a special Invasion map. Set in a high-tech UAC Moon Station invaded by hellspawn, it features an expanded arsenal including a quadruple-barreled cannon shotgun, modified enemies with glowing eyes, skippable cutscenes, and an all-metal soundtrack.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -36,5 +36,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Legacy_of_Suffering",
     "https://www.doomworld.com/16years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

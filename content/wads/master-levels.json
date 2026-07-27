@@ -7,7 +7,7 @@
     }
   ],
   "year": 1995,
-  "description": "Twenty commissioned expert levels for Doom II by community legends including John Anderson (Dr. Sleep), Sverre Kvernmo and Tom Mustaine. The modern official release compiles them into a single WAD playable as one continuous episode.",
+  "description": "Released by id Software as an expansion pack for Doom II, Master Levels for Doom II contains 21 levels spread across 20 WAD files. Created by various authors under contract, this collection features individual maps, including a secret level contained within TEETH.WAD.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -27,5 +27,6 @@
   "_source": "manual",
   "urls": [
     "https://doomwiki.org/wiki/Master_Levels_for_Doom_II"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

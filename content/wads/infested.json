@@ -7,16 +7,16 @@
     }
   ],
   "year": 2021,
-  "description": "A map originaly made for the Plutonia Revisited",
+  "description": "Set two years after Hell on Earth, Infested places players in the role of a contractor clearing a demonic outbreak at a small-town art gallery across seven levels and two intermissions. The mod features custom weapons, textures, and modified monster variants alongside scripted arena encounters against Gore Nests that summon waves of enemies.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
   "requires": [],
   "downloads": [
     {
-      "type": "idgames",
-      "url": "https://youfailit.net/pub/idgames/levels/doom2/p-r/philplu.zip",
-      "filename": "philplu.zip"
+      "type": "direct",
+      "url": "https://drive.usercontent.google.com/download?id=1iqptiZ_FCNfWbjFeyiloRan7vHzLxJNr&export=download&confirm=t",
+      "filename": "infested-v2.04.zip"
     }
   ],
   "thumbnail": "https://doomwiki.org/w/images/e/e2/Infested_TITLEPIC.png",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Infested",
     "https://www.doomworld.com/vb/thread/125484",
     "https://www.doomworld.com/cacowards/2021/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

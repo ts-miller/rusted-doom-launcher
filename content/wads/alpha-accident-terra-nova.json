@@ -7,7 +7,7 @@
     }
   ],
   "year": 2016,
-  "description": "I always wanted to make something classic but with a new content. This wad has not only new maps, textures and music but also new things. Also there are new monsters (boss included), and a new (barely) map hazard - voltage... Maps in this episode are quite large and more of an andventure sort than anything else, but there's enough monsters to shoot at. I hope this will not end being a cliffhanger, because there are lot of things saved for later episodes which I'd like to implement.",
+  "description": "Created by Eugene Guschin, Alpha Accident: Terra Nova is a nine-level Episode 1 replacement for Ultimate Doom. Focused on classic-style adventure gameplay, its large maps feature new textures, custom music, and voltage hazards. It also introduces destructible environment props and three custom enemies, including stationary autocannons, floating drones, and stealthy shadow marines.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Alpha_Accident:_Terra_Nova",
     "https://www.doomworld.com/vb/thread/63266",
     "https://www.doomworld.com/23years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

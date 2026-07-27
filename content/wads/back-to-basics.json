@@ -7,7 +7,7 @@
     }
   ],
   "year": 2007,
-  "description": "After making a large map with slopes, scripts, all new resources and whatnot, I felt like making something very basic. Also used this opportunity to get some maps that were gathering dust finished and released; a very old episode 2 project (although I have released e2m1 of that project before as e2m1er.wad), and a project for EDGE that got to 1\u00bd levels (Rust). The maps were converted to use vanilla resources only (except for the sky). E2M5-E2M9 however are brand new levels for this release. T...",
+  "description": "Created by Esa Repo, Back to Basics is a nine-level Episode 2 replacement mapset for Ultimate Doom. Adhering to vanilla limits, the mapset features basic level design constructed with standard Doom resources alongside a custom sky, culminating in floating fortresses.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -41,5 +41,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Back_to_Basics",
     "https://www.doomworld.com/15years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

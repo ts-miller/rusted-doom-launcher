@@ -7,7 +7,7 @@
     }
   ],
   "year": 2005,
-  "description": "I pretty simple map with a few suprises, based on a chemical plant.",
+  "description": "Total Control is a single-level PWAD for Doom II created by Ronald Lubbelinkhof. Set within a chemical plant, the map features a simple layout with a few surprises and six secret areas to uncover. It utilizes the music track \"Horizon\" by Tom Mustaine.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -45,5 +45,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Total_Control",
     "https://www.doomworld.com/12years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

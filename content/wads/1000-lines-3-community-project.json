@@ -7,7 +7,7 @@
     }
   ],
   "year": 2021,
-  "description": "A 32 map (with 2 bonus levels) megawad made for vanilla Doom 2, made by the community with a strict line limit of 1000 lines. Using the power of Votex, a vanilla version of the OTEX v1.1 texture pack by Ola Bj\u00c3\u00b6rling (ukiro). 1k3 also features a near totally original soundtrack by AD_79, Psyrus, Dragonfly and Tristan Clark. We also have 4 new monsters and a whole heap of new scenery, some of which was made just for 1k3.",
+  "description": "This 34-level community megawad spans Mars City, Tudor settings, and tropical environments, with every level constrained to a strict limit of 1000 linedefs. It features a custom OTEX texture pack, a largely original soundtrack, and extensive DeHackEd modifications including modified weapons and new custom monsters.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/1000_Lines_3:_Community_Project",
     "https://www.doomworld.com/vb/thread/125479",
     "https://www.doomworld.com/cacowards/2021/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

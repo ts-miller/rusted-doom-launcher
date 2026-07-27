@@ -10,7 +10,7 @@
     }
   ],
   "year": 2010,
-  "description": "The texture set to go with my Doom 2 episode entitled UAC Ultra (uacultra.wad) v1.1 works with Eternity. Thanks esselfortium!",
+  "description": "Created by Jamie Bainbridge and Jon Vail, UAC Ultra is an 11-level Doom II set featuring an inescapable credits level. It exclusively uses custom textures created by Vail and includes two new monsters, the Haymaker and the Chimaira. Most of the soundtrack is derived from the game Abuse, along with tracks by Nick Baker and James Paddock.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -40,5 +40,6 @@
     "https://doomwiki.org/wiki/UAC_Ultra",
     "https://www.doomworld.com/vb/thread/50402",
     "https://www.doomworld.com/17years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

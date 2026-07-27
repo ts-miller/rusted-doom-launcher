@@ -7,7 +7,7 @@
     }
   ],
   "year": 2018,
-  "description": "REKKR is a total conversion for Ultimate Doom v1.9",
+  "description": "REKKR is a four-episode total conversion for Ultimate Doom centered on a viking warrior returning home to fight an invading non-human army. It completely replaces the game's assets with new textures, an original soundtrack, custom sound effects, and a full set of weapons and monsters. Distinctive features include new weaponry like axes and soul bows alongside DeHackEd environmental effects.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/REKKR",
     "https://www.doomworld.com/vb/thread/90862",
     "https://www.doomworld.com/cacowards/2018/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -10,7 +10,7 @@
     }
   ],
   "year": 2015,
-  "description": "Sunlust is a set of 32 boom-compatible maps for Doom II, designed to be played from pistol start. The maps meander through a range of themes, from traditional bases and temples to abstract hellish, void, and tech aesthetics. UV is designed primarily for ubermensch doom-gods, thus we encourage most players to start off on HMP or lower.",
+  "description": "Sunlust is a 32-map megawad for Doom II featuring themes that range from traditional bases and temples to abstract hellish, void, and tech aesthetics. Designed to be played from pistol start, the mapset is notorious for its high level of difficulty. Most players are encouraged to start on Hurt Me Plenty or lower.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -45,5 +45,6 @@
     "https://doomwiki.org/wiki/Sunlust",
     "https://www.doomworld.com/vb/thread/68089",
     "https://www.doomworld.com/22years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

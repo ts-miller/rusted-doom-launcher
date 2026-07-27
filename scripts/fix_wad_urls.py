@@ -2,11 +2,12 @@
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
-#     "google-genai>=1.0.0",
+#     "requests",
 # ]
 # ///
 """
-Use Gemini to find real download URLs for WADs with placeholder URLs.
+Use the configured LLM (with web search) to find real download URLs for WADs
+with placeholder URLs.
 
 Usage:
   uv run scripts/fix_wad_urls.py                    # Analyze only (dry run)
@@ -16,24 +17,15 @@ Usage:
 
 import argparse
 import json
-import os
 import re
-import shutil
-import sys
 import time
 from pathlib import Path
 
-from google import genai
-from google.genai import types
+import llm
 
 PENDING_DIR = Path(__file__).parent.parent / "content" / "wads-pending"
 WADS_DIR = Path(__file__).parent.parent / "content" / "wads"
-CONFIG_FILE = Path(__file__).parent / "config.json"
 PLACEHOLDER_PATTERNS = ["example.com", "placeholder"]
-
-# Load config
-def load_config() -> dict:
-    return json.loads(CONFIG_FILE.read_text())
 
 # Rate limiting
 REQUESTS_PER_MINUTE = 10
@@ -69,10 +61,8 @@ def get_wads_needing_urls() -> list[dict]:
     return results
 
 
-def find_download_url(client: genai.Client, wad: dict, config: dict) -> dict | None:
-    """Use Gemini to find download URL for a WAD."""
-    gemini_config = config.get("gemini", {})
-
+def find_download_url(wad: dict) -> dict | None:
+    """Use the configured LLM with web search to find a download URL for a WAD."""
     prompt = f"""Find the DIRECT download URL for this Doom WAD:
 
 Title: {wad['title']}
@@ -100,33 +90,7 @@ Return {{"error": "not found"}} if you can't find a DIRECT download link.
 NO forum threads. NO download pages. NO HTML pages. Only direct file downloads."""
 
     try:
-        response = client.models.generate_content(
-            model=gemini_config.get("model", "gemini-3-flash-preview"),
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                temperature=gemini_config.get("temperature", 0.1),
-                tools=[types.Tool(google_search=types.GoogleSearch())],
-            ),
-        )
-
-        if not response.text:
-            print("    ⚠ Empty response from model")
-            return None
-        text = response.text.strip()
-
-        # Extract JSON from response - handle various markdown formats
-        if "```json" in text:
-            text = text.split("```json")[1].split("```")[0].strip()
-        elif "```" in text:
-            text = text.split("```")[1].split("```")[0].strip()
-
-        # Try to find JSON object in text if above didn't work
-        if not text.startswith("{"):
-            match = re.search(r'\{[^{}]*\}', text)
-            if match:
-                text = match.group()
-
-        result = json.loads(text)
+        result = llm.chat_json(prompt, web_search=True)
 
         if "error" in result:
             return None
@@ -153,7 +117,6 @@ NO forum threads. NO download pages. NO HTML pages. Only direct file downloads."
 
     except json.JSONDecodeError as e:
         print(f"    JSON parse error: {e}")
-        print(f"    Response was: {text[:200]}...")
         return None
     except Exception as e:
         print(f"    API error: {e}")
@@ -184,21 +147,12 @@ def update_wad_file(wad: dict, url_info: dict) -> bool:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Fix WAD placeholder URLs using Gemini")
+    parser = argparse.ArgumentParser(description="Fix WAD placeholder URLs using the configured LLM")
     parser.add_argument("--fix", action="store_true", help="Actually update the JSON files")
     parser.add_argument("--limit", type=int, help="Limit to first N WADs")
     args = parser.parse_args()
 
-    # Check API key
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        print("ERROR: GEMINI_API_KEY environment variable not set")
-        sys.exit(1)
-
-    config = load_config()
-    model_name = config.get("gemini", {}).get("model", "gemini-3-flash-preview")
-
-    print(f"WAD URL Fixer (using {model_name})")
+    print(f"WAD URL Fixer (using {llm.load_llm_config()['model']})")
     print("=" * 60)
 
     wads = get_wads_needing_urls()
@@ -214,15 +168,13 @@ def main():
         print("No WADs need fixing!")
         return
 
-    client = genai.Client(api_key=api_key)
-
     stats = {"found": 0, "not_found": 0, "updated": 0, "errors": 0}
 
     for i, wad in enumerate(wads, 1):
         print(f"\n[{i}/{len(wads)}] {wad['title']}")
         print(f"    Wiki: {wad['wiki_url']}")
 
-        url_info = find_download_url(client, wad, config)
+        url_info = find_download_url(wad)
 
         if url_info:
             stats["found"] += 1

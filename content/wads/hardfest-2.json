@@ -7,7 +7,7 @@
     }
   ],
   "year": 2023,
-  "description": "Are you sick and tired of not having the shit kicked out of you when playing doom? Try Hardfest 2 today! It's apparently quite good! Featuring 40 maps by 24 designers in a variety of styles, there's surely something for even the most picky of doom enthusiast here! Unless you only like boring maps. Have a look somewhere else for that.",
+  "description": "Hardfest 2 is a 41-level megawad community project led by finnks13 and the sequel to 2022's Hardfest. Spanning five episodes by 24 designers, this high-difficulty set features a wide variety of map styles. Gameplay additions include custom monsters like the floating Arachnorb and weak cyberdemon, alongside an infinite rocket launcher that replaces the chainsaw.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Hardfest_2",
     "https://www.doomworld.com/vb/thread/140759",
     "https://www.doomworld.com/cacowards/2023/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

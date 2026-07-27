@@ -7,7 +7,7 @@
     }
   ],
   "year": 2004,
-  "description": "Phobos Revisited - Cacoward winner 2004",
+  "description": "Phobos Revisited is a nine-level episode replacement for The Ultimate Doom that replaces the entire first episode. Created by Rex Claussen, these maps offer re-imagined versions of the original levels while remaining mostly faithful to their original geometry and pathing.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Phobos_Revisited",
     "https://www.doomworld.com/vb/thread/27969",
     "https://www.doomworld.com/11years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

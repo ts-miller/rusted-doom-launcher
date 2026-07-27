@@ -7,7 +7,7 @@
     }
   ],
   "year": 2005,
-  "description": "A themed map series intended for single player exploration and conquest. Designed to be visually exciting, different and fun, as well as provide intense combat situations with as many enemies as could be packed in and survived. This set is NOT at all meant to kill the player in 60 seconds.",
+  "description": "Created by Jeffrey Graham, Crimson Canyon is a 12-level episode replacement for Doom II designed for single-player exploration and conquest. The themed set features visually exciting environments and intense combat packed with high enemy counts designed to be survivable. Its soundtrack combines original compositions by Rachel Schmitz with MIDIs from Rammstein and Metaltech: Earthsiege.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -36,5 +36,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Crimson_Canyon",
     "https://www.doomworld.com/12years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

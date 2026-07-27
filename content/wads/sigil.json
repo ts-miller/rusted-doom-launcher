@@ -7,7 +7,7 @@
     }
   ],
   "year": 2019,
-  "description": "John Romero's unofficial fifth episode for the original Doom. A free megawad featuring 9 single-player and 9 deathmatch levels, with music by Buckethead. A love letter to classic Doom from one of its original creators.",
+  "description": "Designed by John Romero, SIGIL serves as a fifth episode for Doom, containing nine high-difficulty single-player levels and nine corresponding deathmatch arenas. Continuing the story directly after Thy Flesh Consumed, players fight through a dark, stygian pocket of Hell steeped in Satanic imagery. The campaign features custom MIDI tracks by James Paddock alongside an optional MP3 soundtrack by Buckethead.",
   "iwad": "doom",
   "type": "episode",
   "sourcePort": "vanilla",
@@ -15,8 +15,8 @@
   "downloads": [
     {
       "type": "direct",
-      "url": "https://romero.com/sigil",
-      "filename": "SIGIL_v1_21.zip"
+      "url": "https://romero.com/s/SIGIL_V1_23-8fh4.zip",
+      "filename": "SIGIL_V1_23.zip"
     }
   ],
   "thumbnail": "https://doomwiki.org/w/images/3/32/SIGIL_title.png",
@@ -75,5 +75,6 @@
   "urls": [
     "https://doomwiki.org/wiki/SIGIL",
     "https://www.doomworld.com/vb/thread/154564"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

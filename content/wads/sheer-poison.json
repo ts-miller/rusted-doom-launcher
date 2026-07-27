@@ -7,7 +7,7 @@
     }
   ],
   "year": 2015,
-  "description": "A big nonsensical challenge map; gets metaphysical in places.",
+  "description": "Sheer Poison is a single-level challenge map for Doom that occupies the E2M1 slot. Designed by Zan-zan-zawa-veia, this big, nonsensical level gets metaphysical in places and features a custom music track titled \"Pogchamp\", composed by the author.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Sheer_Poison",
     "https://www.doomworld.com/vb/thread/72721",
     "https://www.doomworld.com/22years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

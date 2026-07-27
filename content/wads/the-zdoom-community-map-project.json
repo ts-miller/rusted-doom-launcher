@@ -7,7 +7,7 @@
     }
   ],
   "year": 2004,
-  "description": "One evening, just about 2 months ago, I had this idea of creating just one ZDoom map together with some other mappers and friends. Well, who else could be mor qualified as the ZDoom.org community itself? :) That was the day, when I opened a new thread over at the ZDoom forums and telling those people my plans, and the rest is just history which can be read over at: http://forum.zdoom.org/viewtopic.php?t=2935 By the way, this is the longest thread ever in the history of Forums@ZDoom.org with o...",
+  "description": "The ZDoom Community Map Project is a massive single-map WAD created collaboratively by numerous community members, with each contributor adding a new section or improving on previous work. Designed to showcase advanced capabilities well beyond standard limits, the level incorporates custom monsters, deep-water swimming, and scripted puzzles.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -229,5 +229,6 @@
   "urls": [
     "https://doomwiki.org/wiki/The_ZDoom_Community_Map_Project_%22Take_1%22",
     "https://www.doomworld.com/11years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

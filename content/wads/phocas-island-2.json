@@ -7,7 +7,7 @@
     }
   ],
   "year": 2006,
-  "description": "Phocas Island 2 - Cacoward winner 2006",
+  "description": "Phocas Island 2 is a six-level, hub-based PWAD for Doom II where the player is stranded on a seemingly deserted island. Heavily inspired by 1990s adventure games, gameplay emphasizes exploring environments, solving puzzles, and confronting demons to escape. The mod features music tracks composed by Adam Kalmbach.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -41,5 +41,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Phocas_Island_2",
     "https://www.doomworld.com/13years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

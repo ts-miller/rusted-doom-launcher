@@ -7,7 +7,7 @@
     }
   ],
   "year": 2022,
-  "description": "10x10.wad is a modest set of 10 BOOM-compatible maps made as mapping exercises in which I restricted myself to using ten stock textures and ten stock FLATs in each (with some universal textures such as switches, doors, DOORTRAK, lights, etc.)* Pistol starts are intended but I won't put a gun to your head. In addition, there is a secret map that will probably be unpopular. *An out of bounds area in MAP01 showcases this universal texturebank for any nerd interested. Also, I cheated with ALLBLK ...",
+  "description": "The 10x10 Project is a twelve-map episode replacement for Doom II created as a mapping exercise in visual limitation. Each map uses only ten stock textures and ten stock flats, with levels beginning in a void showcasing their featured textures. Gameplay ranges from Plutonia difficulty to Sunder-esque challenges inspired by Nathan Stracke and Insane_Gazebo.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/The_10x10_Project",
     "https://www.doomworld.com/vb/thread/125783",
     "https://www.doomworld.com/cacowards/2022/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

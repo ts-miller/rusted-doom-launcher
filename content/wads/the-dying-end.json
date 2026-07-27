@@ -7,7 +7,7 @@
     }
   ],
   "year": 2007,
-  "description": "A remake of level 29 of Doom II",
+  "description": "Created by Christopher Lutz, The Dying End is a single-level Doom II PWAD that serves as a remake of level 29. Occupying the MAP29 slot, the map features a big central marble structure, a red castle with imps on its towers, blood floors, and a zigzag path over lava.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -93,5 +93,6 @@
   "urls": [
     "https://doomwiki.org/wiki/The_Dying_End",
     "https://www.doomworld.com/14years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

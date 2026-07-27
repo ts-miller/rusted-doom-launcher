@@ -7,7 +7,7 @@
     }
   ],
   "year": 2011,
-  "description": "The third and final part of my solo megawad. Part 3 of 'Jenesis' adds 12 extra maps to the first twenty (which have all also been modified for the better in some way or another) and replaces the final map, as its predecessor did. 'Jenesis' is a 32-level megawad for Boom, complete with a new final boss, a new monster, new status bar graphics and a recolored message font. The aim of this project was mainly to hone my skills in traditional Doom level design, but it was also to create a presentab...",
+  "description": "Jenesis is a 32-level megawad for Doom II created by James Paddock. It blends traditional Doom level design with thematic inspiration from classic mapsets such as Memento Mori, Alien Vendetta, and Scythe. The project features custom music tracks, new status bar graphics, a recolored font, and new custom monsters.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -46,5 +46,6 @@
     "https://doomwiki.org/wiki/Jenesis",
     "https://www.doomworld.com/vb/thread/53075",
     "https://www.doomworld.com/18years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

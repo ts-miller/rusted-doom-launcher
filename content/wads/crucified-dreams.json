@@ -7,7 +7,7 @@
     }
   ],
   "year": 2006,
-  "description": "41 Doom II deathmatch-only maps for Boom-compatible engines, in the spirit of the Gothic Deathmatches series. Respect.",
+  "description": "Crucified Dreams is a 42-level Doom II deathmatch megawad designed as a spiritual sequel to the Gothic Deathmatches series. Created by a large team of contributors, it features gothic-themed arenas alongside unreleased B-sides and remixed levels.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -36,5 +36,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Crucified_Dreams",
     "https://www.doomworld.com/13years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }
