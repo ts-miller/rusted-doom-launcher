@@ -12,7 +12,13 @@
   "type": "episode",
   "sourcePort": "vanilla",
   "requires": [],
-  "downloads": [],
+  "downloads": [
+    {
+      "type": "direct",
+      "url": "https://romero.com/s/SIGIL_II_V1_0.zip",
+      "filename": "SIGIL_II_V1_0.zip"
+    }
+  ],
   "thumbnail": "https://doomwiki.org/w/images/a/a4/SIGIL_II_title.png",
   "screenshots": [],
   "youtubeVideos": [],
