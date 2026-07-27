@@ -2,12 +2,11 @@
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
-#     "google-genai",
 #     "requests",
 # ]
 # ///
 """
-Extract images from a DoomWiki page using Gemini 3 Flash.
+Extract images from a DoomWiki page.
 
 Usage:
     uv run scripts/extract_doomwiki_images.py https://doomwiki.org/wiki/Ancient_Aliens
@@ -18,8 +17,10 @@ import json
 import sys
 
 import requests
-from google import genai
-from google.genai import types
+
+import llm
+
+HEADERS = {"User-Agent": "DoomLauncher-WikiScraper/1.0"}
 
 PROMPT = """Analyze this DoomWiki HTML page and extract all relevant images.
 
@@ -47,36 +48,14 @@ Return ONLY valid JSON, no markdown or explanation."""
 
 def fetch_page(url: str) -> str:
     """Fetch HTML content from URL."""
-    response = requests.get(url, timeout=30)
+    response = requests.get(url, headers=HEADERS, timeout=30)
     response.raise_for_status()
     return response.text
 
 
 def extract_images(html: str) -> dict:
-    """Use Gemini to extract image data from HTML."""
-    client = genai.Client()
-
-    response = client.models.generate_content(
-        model="gemini-3-flash-preview",
-        contents=[f"HTML content:\n\n{html}\n\n{PROMPT}"],
-        config=types.GenerateContentConfig(
-            temperature=0.1,  # Low temperature for consistent extraction
-        ),
-    )
-
-    # Extract text from response
-    if response.candidates and response.candidates[0].content.parts:
-        text = response.candidates[0].content.parts[0].text
-        # Clean up markdown code blocks if present
-        text = text.strip()
-        if text.startswith("```"):
-            text = text.split("\n", 1)[1]  # Remove first line
-        if text.endswith("```"):
-            text = text.rsplit("```", 1)[0]  # Remove last ```
-        text = text.strip()
-        return json.loads(text)
-
-    return {"title": "", "images": []}
+    """Use the LLM to extract image data from HTML."""
+    return llm.chat_json(f"HTML content:\n\n{html}\n\n{PROMPT}")
 
 
 def main():

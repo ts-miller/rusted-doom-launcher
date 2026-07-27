@@ -73,6 +73,7 @@ Python exploration scripts live in `scripts/`. Run with `uv run scripts/<script>
 ### LLM pipeline (Gemini via OpenRouter)
 **NEVER use Gemini 2.0 Flash or Gemini 2.5 Flash.** These are outdated models.
 
-Text-generation scripts go through OpenRouter (`scripts/llm.py`, needs `OPENROUTER_API_KEY`) using the model in `scripts/config.json` — currently `google/gemini-3.6-flash`. Always Gemini 3.6 Flash or newer.
+All LLM scripts go through OpenRouter (`scripts/llm.py`, needs `OPENROUTER_API_KEY`) using the model in `scripts/config.json` — currently `google/gemini-3.6-flash`. Always Gemini 3.6 Flash or newer.
 
-Some older image-extraction scripts (`add_images_from_doomwiki.py`, `extract_doomwiki_images.py`, `extract_wad_metadata.py`, `test_wad_summary.py`) still use the `google-genai` SDK directly with `gemini-3-flash-preview`.
+### Link-rot check
+`uv run scripts/check_download_links.py` verifies every catalog download URL serves a real file (not an HTML page). Sequential and throttled by design — run occasionally (e.g. before a release), never in CI or a loop.
