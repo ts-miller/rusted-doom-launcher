@@ -2,12 +2,11 @@
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
-#     "google-genai",
 #     "requests",
 # ]
 # ///
 """
-Add images to WAD entries by extracting them from DoomWiki pages using Gemini 3 Flash.
+Add images to WAD entries by extracting them from DoomWiki pages.
 
 Usage:
     uv run scripts/add_images_from_doomwiki.py
@@ -22,10 +21,11 @@ import time
 from pathlib import Path
 
 import requests
-from google import genai
-from google.genai import types
+
+import llm
 
 WADS_DIR = Path(__file__).parent.parent / "content" / "wads"
+HEADERS = {"User-Agent": "DoomLauncher-WikiScraper/1.0"}
 
 PROMPT = """Analyze this DoomWiki HTML page and extract all relevant images.
 
@@ -54,7 +54,7 @@ Return ONLY valid JSON, no markdown or explanation."""
 def fetch_page(url: str) -> str | None:
     """Fetch HTML content from URL."""
     try:
-        response = requests.get(url, timeout=30)
+        response = requests.get(url, headers=HEADERS, timeout=30)
         response.raise_for_status()
         return response.text
     except requests.RequestException as e:
@@ -63,28 +63,8 @@ def fetch_page(url: str) -> str | None:
 
 
 def extract_images(html: str) -> dict:
-    """Use Gemini 3 Flash to extract image data from HTML."""
-    client = genai.Client()
-
-    response = client.models.generate_content(
-        model="gemini-3-flash-preview",
-        contents=[f"HTML content:\n\n{html}\n\n{PROMPT}"],
-        config=types.GenerateContentConfig(
-            temperature=0.1,
-        ),
-    )
-
-    if response.candidates and response.candidates[0].content.parts:
-        text = response.candidates[0].content.parts[0].text
-        text = text.strip()
-        if text.startswith("```"):
-            text = text.split("\n", 1)[1]
-        if text.endswith("```"):
-            text = text.rsplit("```", 1)[0]
-        text = text.strip()
-        return json.loads(text)
-
-    return {"title": "", "images": []}
+    """Use the LLM to extract image data from HTML."""
+    return llm.chat_json(f"HTML content:\n\n{html}\n\n{PROMPT}")
 
 
 def process_wad(filepath: Path, dry_run: bool = False) -> tuple[bool, str]:

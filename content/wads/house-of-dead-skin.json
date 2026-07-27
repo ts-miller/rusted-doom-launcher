@@ -7,7 +7,7 @@
     }
   ],
   "year": 2024,
-  "description": "Large single map with a predominantly beige texture theme, set in an abstract beige facility built into abstract beige caves. There's a mix of incidental/ambush combat, exploration, and larger setpiece fights some of which are infighting-based. Much of the map is optional if you're not going for completion and there's plenty of content to be found in the secrets. 10X10 and Stardate 20X6 were my main inspirations.",
+  "description": "House of Dead Skin is a large single-level PWAD set in an abstract beige facility built into abstract beige caves. Inspired by 10X10 and Stardate 20X6, it features a mix of ambush combat, exploration, and infighting-focused setpiece battles. Much of the map is optional, with extensive content tucked away inside its secrets.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/House_of_Dead_Skin",
     "https://www.doomworld.com/vb/thread/147767",
     "https://www.doomworld.com/cacowards/2024/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

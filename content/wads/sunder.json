@@ -7,7 +7,7 @@
     }
   ],
   "year": 2009,
-  "description": "A legendary slaughter megawad featuring massive battles in beautifully crafted environments. Known for its challenging gameplay with huge monster counts and intricate level design. Ongoing development with 21+ maps.",
+  "description": "Sunder is a 23-map megawad for Doom II created by Insane_Gazebo. It is a collection of slaughter maps featuring monster counts ranging from hundreds to thousands per level. Known for its influential visual style and combat arrangements, the wad also introduces the Hive mother, a custom wasp-like mini-boss demon.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -55,5 +55,6 @@
   "_source": "manual",
   "urls": [
     "https://doomwiki.org/wiki/Sunder"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

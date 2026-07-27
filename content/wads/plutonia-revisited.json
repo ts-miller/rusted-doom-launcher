@@ -7,7 +7,7 @@
     }
   ],
   "year": 2011,
-  "description": "32 community maps inspired by plutonia.",
+  "description": "Plutonia Revisited is a 32-level megawad created by members of the Doomworld community under the management of Josh Sealy. Inspired by The Plutonia Experiment, the project transports players into a personalized cyber-reality hell crafted by a vengeful gatekeeper. The release features map contributions from numerous authors along with a complete soundtrack.",
   "iwad": "plutonia",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Plutonia:_Revisited_Community_Project",
     "https://www.doomworld.com/vb/thread/55598",
     "https://www.doomworld.com/18years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

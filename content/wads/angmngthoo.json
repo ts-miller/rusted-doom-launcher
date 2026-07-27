@@ -7,7 +7,7 @@
     }
   ],
   "year": 2023,
-  "description": "A single map for Doom II inspired by brutalist architecture — concrete masses, uncompromising geometry, dense detail. Released March 2023 on Doomworld.",
+  "description": "Angmngthoo is a single-level map for Doom II built with brutalist architecture, drawing inspiration from the Quake Brutalist Jam. Titled after a Taiwanese word meaning concrete, the level utilizes OTEX textures and the Eviternity color palette. It features a custom MP3 music track titled 'smell like napalm' composed by the author.",
   "iwad": "doom2",
   "type": "single-level",
   "sourcePort": "boom",
@@ -29,7 +29,7 @@
   "screenshots": [
     {
       "url": "https://img.youtube.com/vi/eb-UjhsQdIA/maxresdefault.jpg",
-      "caption": "Outdoor brutalist courtyard — concrete platforms, sparse trees, grid ceiling."
+      "caption": "Outdoor brutalist courtyard \u2014 concrete platforms, sparse trees, grid ceiling."
     }
   ],
   "youtubeVideos": [
@@ -47,11 +47,12 @@
     "architectural"
   ],
   "difficulty": "unknown",
-  "notes": "[Doomworld thread](https://www.doomworld.com/forum/topic/134404-angmngthoo-brutalist-architectural-style-inspired-single-map-boom-compatible/) • [archive.org mirror](https://archive.org/details/doom2_wad_angmngthoo) • Author-uploaded archive.org mirror; catalog points at the stable .wad URL.",
+  "notes": "[Doomworld thread](https://www.doomworld.com/forum/topic/134404-angmngthoo-brutalist-architectural-style-inspired-single-map-boom-compatible/) \u2022 [archive.org mirror](https://archive.org/details/doom2_wad_angmngthoo) \u2022 Author-uploaded archive.org mirror; catalog points at the stable .wad URL.",
   "_schemaVersion": 1,
   "_source": "manual",
   "urls": [
     "https://www.doomworld.com/forum/topic/134404-angmngthoo-brutalist-architectural-style-inspired-single-map-boom-compatible/",
     "https://archive.org/details/doom2_wad_angmngthoo"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -7,7 +7,7 @@
     }
   ],
   "year": 2017,
-  "description": "A running battle through a twisty terraced city of brick, iron and skin. A well-meaning attempt to make a singleplayer map that would flow like a deathmatch one. Secretly just a love letter to BRWINDOW. Inspired by Crucified Dreams, BTSX Episode 2, Gravity Rush, Doom 2016 and Kowloon Walled City.",
+  "description": "Brigandine is a single-level PWAD for Doom II set within a twisty, terraced city of brick, iron, and skin. Designed by Aline Bee to flow like a deathmatch map, the level features custom music by Conelrad. Its layout draws inspiration from sources including Kowloon Walled City, BTSX Episode 2, and Doom 2016.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Brigandine",
     "https://www.doomworld.com/vb/thread/92776",
     "https://www.doomworld.com/24years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

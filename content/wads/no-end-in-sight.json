@@ -7,7 +7,7 @@
     }
   ],
   "year": 2016,
-  "description": "Oldschool 4-episode adventure for The Ultimate Doom, featuring some of the most devilish map design this side of 1994. 'Nuff said... ish. Similar to DTWID, the spirit of id is ever-present, albeit cranked up to 11 with a devious new spin on the classic episodes' themes. Along the way, you'll enter parallel worlds, explore derelict spaceships still floating in the sky, and return to some eerily familiar locales on the far side of Phobos and beyond.",
+  "description": "No End In Sight is a four-episode megawad for The Ultimate Doom created by three Doom the Way id Did contributors. Combining brand-new maps and modified levels, it puts a devious spin on classic episode themes. Players explore derelict spaceships, parallel worlds, and familiar locales on the far side of Phobos and beyond.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/No_End_In_Sight",
     "https://www.doomworld.com/vb/thread/60012",
     "https://www.doomworld.com/24years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

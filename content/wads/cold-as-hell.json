@@ -7,7 +7,7 @@
     }
   ],
   "year": 2004,
-  "description": "A partial conversion set in the mid-50's on a weapons research base deep in the heart of Greenland. You thought this would be a nice boring way to finish your career as a Marine. You thought wrong.",
+  "description": "Cold as Hell is a 16-level total conversion set in a 1950s military research facility deep in Greenland. Blending classic Doom gameplay with survival horror and military shooter mechanics, the project features an open-ended hub structure, mission objectives, weapon reloading, and environmental snow effects.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -45,5 +45,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Cold_as_Hell",
     "https://www.doomworld.com/15years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

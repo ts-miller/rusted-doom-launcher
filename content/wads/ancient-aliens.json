@@ -7,7 +7,7 @@
     }
   ],
   "year": 2016,
-  "description": "A 32-level megawad with a vibrant purple alien aesthetic. Features unique architecture, custom textures, new enemies, and an original soundtrack. Known for its distinctive visual style and challenging gameplay.",
+  "description": "Ancient Aliens is a 32-level megawad by Paul DeBruyne (skillsaw) that parodies alien conspiracy theories. Spanning three episodes, the mapset features a distinct visual style built with custom textures and a new palette, alongside new alien enemies. The release includes guest maps and a complete soundtrack composed by Stuart Rynn.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -60,5 +60,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Ancient_Aliens",
     "https://www.doomworld.com/23years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

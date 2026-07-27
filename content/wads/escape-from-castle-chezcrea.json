@@ -7,7 +7,7 @@
     }
   ],
   "year": 2008,
-  "description": "A linear, challenging level that shows off some some neat ideas I had.",
+  "description": "Escape from Castle Chezcrea is a linear, challenging single-level map for Doom II occupying the MAP30 slot. Set within a castle environment featuring darkening caverns and conveyor belts, the level showcases distinctive mechanics, including picking up a pickaxe to break through a cracked wall and shooting hanging bodies to unlock secrets.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -45,5 +45,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Escape_from_Castle_Chezcrea",
     "https://www.doomworld.com/15years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

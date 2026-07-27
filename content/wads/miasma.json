@@ -7,7 +7,7 @@
     }
   ],
   "year": 2016,
-  "description": "One fairly large and complex map. Difficulty should be more on the challenging side, harder encounters are mostly optional though.",
+  "description": "Miasma is a single-level Doom II PWAD created by Thomas Seifert. Built around a large and complex map, it features challenging combat where harder encounters are mostly optional. The level features custom music, including Bernard De Windt's \"The Mucus Flow\" alongside tracks from Shadow of the Beast II and Resident Evil.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Miasma",
     "https://www.doomworld.com/vb/thread/86466",
     "https://www.doomworld.com/23years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -7,7 +7,7 @@
     }
   ],
   "year": 2007,
-  "description": "One map - a large map! I devote this wad to KoLoBoK[iddqd], my best friend, who suddenly died in 2007, may 12.",
+  "description": "Cheogsh is a large, single-level Doom II mod set across temple ruins, prison cells, an underground city, and hellish caverns. Dedicated as a memorial to the author's late friend, the level features story dialogue, puzzle elements, and a suite of custom enemies leading to a custom boss fight.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -102,5 +102,6 @@
     "https://doomwiki.org/wiki/Cheogsh",
     "https://www.doomworld.com/14years/",
     "https://www.doomworld.com/forum/topic/41127-cheogshwad/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -10,7 +10,7 @@
     }
   ],
   "year": 2005,
-  "description": "Heh..we made 32 maps, finally, so you all \"HR-skilled\" players let's go and beat them :-)",
+  "description": "Kama Sutra is a 32-level Doom II megawad created by Czech speedrunners Adolf Vojta and Jakub Razak. Designed for high-skilled players, it features challenging gameplay paired with a soundtrack featuring music from games like Duke Nukem 3D alongside songs by Metallica and Led Zeppelin. Aside from its title screen and final map referencing the ancient Indian text, the megawad focuses on action.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -44,5 +44,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Kama_Sutra",
     "https://www.doomworld.com/12years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

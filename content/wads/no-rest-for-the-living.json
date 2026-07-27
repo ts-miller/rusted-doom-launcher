@@ -7,7 +7,7 @@
     }
   ],
   "year": 2010,
-  "description": "The official Doom II expansion episode by Nerve Software, originally made for the Xbox Live Arcade release. Nine tightly designed levels (plus a secret map) that ramp up classic Doom II combat with expert pacing. Included with modern official Doom II releases.",
+  "description": "No Rest for the Living is a nine-level Doom II expansion consisting of eight standard maps and one secret level. Set on Earth after Hell's forces have seemingly been vanquished, the campaign follows the fight to stop a Cyberdemon attempting to reopen the gateway between Hell and Earth. Designed as a homage to classic nine-map Doom episodes, it features reordered Bobby Prince music tracks.",
   "iwad": "doom2",
   "type": "episode",
   "sourcePort": "vanilla",
@@ -28,5 +28,6 @@
   "_source": "manual",
   "urls": [
     "https://doomwiki.org/wiki/No_Rest_for_the_Living"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -63,4 +63,5 @@ scripts/data/.*_cache.json
 scripts/data/*-metadata.json
 scripts/data/cacowards_raw.json
 scripts/data/wads_metadata.json
+scripts/data/description_candidates.json
 src/lib/version.ts

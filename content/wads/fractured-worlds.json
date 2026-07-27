@@ -7,7 +7,7 @@
     }
   ],
   "year": 2021,
-  "description": "Fractured Worlds is a collection of 8 blue/cyan Boom compatible (cl9) maps, spanning a wide variety of themes and presenting some challenging set piece encounters and incidental combat. There are some large and small maps, and each one contains a secret fight, accessible by finding the hidden purple keycard in each level. There are 6 maps by me (7 including the anti-Underhalls map at the end) and 2 secret maps by Scotty and Insane Gazebo, taking the map 31 and 32 slots respectively. Maps jump...",
+  "description": "Fractured Worlds is a nine-level mapset featuring environments that range from tech gardens and deep caverns to grand neo-gothic architecture and void spaces. Distinctive for its altered teal palette, the set mixes incidental combat, platforming, and set-piece encounters. Each level includes a secret fight accessed via a hidden purple keycard, along with custom monsters like void cacodemons and teal cyberdemons.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Fractured_Worlds",
     "https://www.doomworld.com/vb/thread/125253",
     "https://www.doomworld.com/cacowards/2021/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

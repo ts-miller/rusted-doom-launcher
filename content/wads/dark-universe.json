@@ -7,7 +7,7 @@
     }
   ],
   "year": 2018,
-  "description": "6 map pack for GZdoom/Doom2. Small to Medium sized maps. Maps can be completed rather quickly (just find the switch that opens the exit and then find the exit), with lots of secrets, switches, scripted events, and hidden areas full of the stuff you might need to survive the next map. HMP and UV difficulties available. MOUSE LOOK REQUIRED. NO JUMPING/ CROUCHING. Intended for vanilla monsters and weapons but works well with most mods.",
+  "description": "Dark Universe is a 6-level partial conversion for Doom II set aboard a UAC spaceship during a demonic invasion. Featuring small- to medium-sized atmospheric 3D maps, this set expands on Doom's plot through modern storytelling, scripted events, and secrets. Players navigate deadly hazards while fighting evil forces, including a large custom robot enemy called the Paladin.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Dark_Universe",
     "https://www.doomworld.com/vb/thread/98296",
     "https://www.doomworld.com/cacowards/2018/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

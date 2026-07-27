@@ -7,7 +7,7 @@
     }
   ],
   "year": 2019,
-  "description": "The Wayfarer is a full 9-map episode for Heretic that includes two new enemies, two new artifacts, a new weapon, plenty of custom decorations and textures, custom bosses, and more. The episode includes a built-in gameplay mod that rebalances Heretic in ways that are mostly subtle but make the game a lot more engaging to play. Many enemy attacks are more dangerous, and most of the player's weapons are more powerful, allowing certain weapons to have more useful combat niches and eliminating the...",
+  "description": "Created by Not Jabba, The Wayfarer is a 9-map Heretic episode replacement and partial conversion. It introduces a new weapon, several original monsters, and new artifacts while incorporating a built-in gameplay rebalance mod. This mod adjusts vanilla weapon and monster mechanics to reduce grind and provide more engaging combat.",
   "iwad": "heretic",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/The_Wayfarer",
     "https://www.doomworld.com/vb/thread/104838",
     "https://www.doomworld.com/cacowards/2019/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

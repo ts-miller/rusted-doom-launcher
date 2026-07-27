@@ -7,7 +7,7 @@
     }
   ],
   "year": 2024,
-  "description": "Doom 2 In City Only is a 36 map megawad in MBF21 format featuring nothing but city maps. Some of these maps are very large, so it is recommended you play with OpenGL. The set was primarily tested in dsda-doom. There are 6 secret maps (one per episode) with the secret exit being in the middle map of each episode. Jumping and freelook are not intended for this set and will break some maps.",
+  "description": "Doom 2 In City Only is a 36-level megawad featuring nothing but city maps across six themed episodes, including modern, future, Egyptian, underground, hell, and void cities. The collection includes six secret maps, custom PLAYPAL and COLORMAP lumps, and the plasma gun firing sound from Doom 3.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Doom_2_In_City_Only",
     "https://www.doomworld.com/vb/thread/143936",
     "https://www.doomworld.com/cacowards/2024/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

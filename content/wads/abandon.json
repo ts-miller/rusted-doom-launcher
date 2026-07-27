@@ -10,7 +10,7 @@
     }
   ],
   "year": 2020,
-  "description": "Grandiose, oppressive slaughter maps.",
+  "description": "Abandon is a 17-level megawad created by Bemused, Benjogami, and Scotty featuring grandiose, oppressive slaughter maps. It offers large-scale levels with high difficulty and a detailed design style that makes considerable use of single-color textures against abstract backdrops. The set also includes custom menu graphics by Insane_Gazebo and a new status bar by galileo31dos01.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -40,5 +40,6 @@
     "https://doomwiki.org/wiki/Abandon",
     "https://www.doomworld.com/vb/thread/108251",
     "https://www.doomworld.com/cacowards/2020/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

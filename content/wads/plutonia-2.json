@@ -7,7 +7,7 @@
     }
   ],
   "year": 2008,
-  "description": "An add-on sequel for Final DOOM's \"The Plutonia Experiment\". It emulates Plutonia's design and gameplay styles and follows from where it left off.",
+  "description": "Plutonia 2 is a 32-level megawad acting as an unofficial sequel to Final DOOM's The Plutonia Experiment. It emulates the original's design and gameplay styles as the protagonist enters the Amazonian jungle to combat a new demonic invasion. The soundtrack features 27 new songs alongside eight previously released tracks.",
   "iwad": "plutonia",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Plutonia_2",
     "https://www.doomworld.com/vb/thread/45022",
     "https://www.doomworld.com/16years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

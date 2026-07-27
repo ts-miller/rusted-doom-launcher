@@ -7,7 +7,7 @@
     }
   ],
   "year": 2017,
-  "description": "\"What does fear taste like?",
+  "description": "Saturnine Chapel, also known as MNENMA 0, is a single-level Doom II map created by Darryl Steffen featuring extreme gameplay centered around a chapel surrounded by green liquid. The release includes custom music by Zachary Stephens and transitions into a second map that functions as a silent, otherworldly epilogue scene.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -50,5 +50,6 @@
     "https://doomwiki.org/wiki/Saturnine_Chapel",
     "https://www.doomworld.com/vb/thread/92310",
     "https://www.doomworld.com/24years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

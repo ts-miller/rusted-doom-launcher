@@ -7,7 +7,7 @@
     }
   ],
   "year": 2004,
-  "description": "Following the success of the original Community Chest, Community Chest 2 is a 32 map megawad including levels made by 26 different authors from the Doom Community. Originally announced almost one year ago in December 2003, it is now complete and ready for your enjoyment.",
+  "description": "Community Chest 2 is a 32-map megawad for Doom II created by 26 authors from the Doom community. As the first sequel to Community Chest, it features levels contributed by various mappers alongside a selection of custom music tracks.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -36,5 +36,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Community_Chest_2",
     "https://www.doomworld.com/11years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

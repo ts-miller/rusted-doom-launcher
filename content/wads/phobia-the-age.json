@@ -7,7 +7,7 @@
     }
   ],
   "year": 2006,
-  "description": "Phobia: The Age - Cacoward winner 2006",
+  "description": "Phobia: The Age is an eight-level Doom II episode by Kristian K\u00e4ll, developed as a reaction to Marc Pullen's music album Limits. The project features custom monsters, soundtrack compositions by Pullen, voice acting by Mike Lightner, and dedicated intro and outro maps.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Phobia",
     "https://www.doomworld.com/vb/thread/77160",
     "https://www.doomworld.com/10years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

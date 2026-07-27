@@ -7,7 +7,7 @@
     }
   ],
   "year": 2004,
-  "description": "Tremor is a medium-sized techbase map, fairly open-plan but cramped in some areas. This is my first proper released map but I think I've definetly come a long way.",
+  "description": "Tremor is a medium-sized, single-map techbase release for Doom II with a fairly open-plan layout that features cramped sections and outdoor yards. Designed by Ross Mathieson, the level includes hazardous nukage channels and a custom music track credited to DiluteCo.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -97,5 +97,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Tremor",
     "https://www.doomworld.com/11years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

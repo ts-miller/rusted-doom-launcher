@@ -7,7 +7,7 @@
     }
   ],
   "year": 2016,
-  "description": "Make sure you are using the LATEST version of GZDoom (1.0.29) or a recent SVN build of ZDoom. Older GZDoom releases and official ZDoom releases will not work! You will get a fatal syntax error in MAPINFO when trying to start the game.",
+  "description": "Mutiny is a 16-level community project megawad for Doom II with a cyberpunk theme. Serving as a spiritual successor to late 1990s WADs like STRAIN and Hacx, it features colorful, high-contrast retro textures inspired by Iika Keranen and Anthony Czerwonka. The visual aesthetic incorporates radioactive signs, warning stripes, computers, slime, and rust.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -15,7 +15,7 @@
   "downloads": [
     {
       "type": "idgames",
-      "url": "https://youfailit.net/pub/idgames/combos/mutiny.zip",
+      "url": "https://youfailit.net/pub/idgames/levels/doom2/Ports/megawads/mutiny.zip",
       "filename": "mutiny.zip"
     }
   ],
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Mutiny",
     "https://www.doomworld.com/vb/thread/73615",
     "https://www.doomworld.com/23years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

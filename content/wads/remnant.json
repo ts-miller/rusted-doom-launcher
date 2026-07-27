@@ -7,7 +7,7 @@
     }
   ],
   "year": 2019,
-  "description": "Remnant is a large limit-removing map for Doom 2, using the OTEX texture pack by ukiro and centered around creating a vanilla-ish gameplay experience within a detailed, atmospheric setting. The map features large open environments, both outdoors and indoors, with medieval and hellish elements combined with lush and organic outdoor scenery. Encounters can often be approched from different perspectives, and the open environments give way for momentum based battles that take advantage of said op...",
+  "description": "Remnant is a large single-level PWAD for Doom II combining medieval and hellish elements with lush outdoor scenery. Built using the OTEX texture pack, the map features expansive indoor and outdoor environments tailored for momentum-based combat, evenly distributed monster encounters, and two DEHACKED custom monsters.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Remnant",
     "https://www.doomworld.com/vb/thread/109217",
     "https://www.doomworld.com/cacowards/2019/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

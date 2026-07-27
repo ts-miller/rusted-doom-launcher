@@ -7,7 +7,7 @@
     }
   ],
   "year": 2011,
-  "description": "A brand new, 32-level megawad for Vanilla Doom 2.exe. Inspired from and made in the style of 90's megawads.",
+  "description": "Reverie is a 32-map megawad for Doom II created by Michael Jan Krizik in the style of classic 90's mapsets. Each level is designed to be reminiscent of classic releases such as Plutonia and Memento Mori. The megawad features a custom soundtrack by John Weekley, James Paddock, and Stuart Rynn, as well as four built-in demos.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Reverie",
     "https://www.doomworld.com/vb/thread/55364",
     "https://www.doomworld.com/18years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

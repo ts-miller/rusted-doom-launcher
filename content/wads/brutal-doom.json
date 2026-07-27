@@ -7,7 +7,7 @@
     }
   ],
   "year": 2012,
-  "description": "A gameplay mod that adds enhanced gore, fatalities, new weapons, and modernized mechanics to classic Doom. Features headshots, dual-wielding, executions, and enhanced enemy AI. One of the most popular Doom mods ever created.",
+  "description": "Brutal Doom is a gameplay mod inspired by the Doom comic that revamps the original monsters and weapons. It introduces elaborate gore effects, fatalities, headshots, dynamic fluids, and verbal taunts. Combat mechanics are expanded with kick attacks, rebalanced firearms with secondary fire modes, and optional weapon reloading.",
   "iwad": "doom2",
   "type": "gameplay-mod",
   "sourcePort": "gzdoom",
@@ -52,5 +52,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Brutal_Doom",
     "https://www.doomworld.com/18years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

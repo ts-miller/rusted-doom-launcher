@@ -7,7 +7,7 @@
     }
   ],
   "year": 2011,
-  "description": "A nine map episode 1 replacement.",
+  "description": "Created by Matt Cibulas and Ralph Vickers, Double Impact is a nine-map Episode 1 replacement for The Ultimate Doom. The levels span various facilities, including central computing, a hydroponic facility, waste treatment, and a launch bay. The release features a built-in demo along with a soundtrack that includes music mash-ups.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Double_Impact",
     "https://www.doomworld.com/vb/thread/54849",
     "https://www.doomworld.com/18years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

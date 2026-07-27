@@ -7,7 +7,7 @@
     }
   ],
   "year": 2016,
-  "description": "An episode 1 replacement for Heretic.",
+  "description": "Elf Gets Pissed is a nine-level Episode 1 replacement WAD for Heretic created by Matt Cibulas. It features custom elements including the slot 7 lightbringer weapon, a tombstone that spawns a giant dog head, and a chicken barrel that spawns four chickens when blown up. The WAD also includes new soundtracks for the title and intermission screens.",
   "iwad": "heretic",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Elf_Gets_Pissed",
     "https://www.doomworld.com/23years/",
     "https://www.doomworld.com/forum/topic/84752-elf-gets-pissed-a-new-heretic-episode-release/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

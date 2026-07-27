@@ -7,7 +7,7 @@
     }
   ],
   "year": 2012,
-  "description": "This is my last (and best) work.",
+  "description": "5till L1 Complex is a single-level Doom II map created by Lainos. Set within a complex that includes a cafeteria and a library, the level utilizes music and intermission tracks from the anime series Angel Beats! while replacing the title music with silence.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -43,5 +43,6 @@
     "https://www.doomworld.com/vb/thread/60775",
     "https://www.doomworld.com/vb/thread/60775",
     "https://www.doomworld.com/19years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

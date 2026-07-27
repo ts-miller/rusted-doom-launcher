@@ -7,7 +7,7 @@
     }
   ],
   "year": 2014,
-  "description": "Adds newly drawn intermediate animation frames to every monster, weapon, and projectile in Doom. The end result is buttery-smooth sprite motion — the most-installed gameplay-adjacent Doom mod by a wide margin. Pairs with anything.",
+  "description": "Smooth Doom is a visual gameplay mod by Gifty that enhances and extends the animations of Doom and Doom II's monsters, weapons, items, and decorations. By adding extra sprite frames and visual effects, it makes motion appear more fluid without changing gameplay. The mod also introduces dynamic lights, unique blood colors, new sounds, and optional toggles like weapon recoil and particle effects.",
   "iwad": "doom2",
   "type": "gameplay-mod",
   "sourcePort": "gzdoom",
@@ -30,11 +30,12 @@
     "popular"
   ],
   "difficulty": "unknown",
-  "notes": "[Doomworld thread](https://www.doomworld.com/forum/topic/69451-smooth-doom-update-41420/) • [Doom Wiki](https://doomwiki.org/wiki/Smooth_Doom) • GZDoom only. Mirror hosted via the 1x-1 community archive on archive.org.",
+  "notes": "[Doomworld thread](https://www.doomworld.com/forum/topic/69451-smooth-doom-update-41420/) \u2022 [Doom Wiki](https://doomwiki.org/wiki/Smooth_Doom) \u2022 GZDoom only. Mirror hosted via the 1x-1 community archive on archive.org.",
   "_schemaVersion": 1,
   "_source": "manual",
   "urls": [
     "https://www.doomworld.com/forum/topic/69451-smooth-doom-update-41420/",
     "https://doomwiki.org/wiki/Smooth_Doom"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

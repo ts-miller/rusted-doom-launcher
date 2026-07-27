@@ -7,7 +7,7 @@
     }
   ],
   "year": 2022,
-  "description": "34 brown colored maps that range from lighter shade of brown to darker shade of brown. Includes conventional and unconventional gameplay, slaughter, platforming, all that. Themes range from WW1 trenches to minimalistic abstraction.",
+  "description": "Sepia is a 34-level megawad for Doom II created by Petyan with guest mappers. Built around a brown visual aesthetic ranging from light to dark shades, its themes span from World War I trenches to minimalistic abstraction. Gameplay incorporates conventional and unconventional design, including platforming and slaughter encounters.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Sepia",
     "https://www.doomworld.com/vb/thread/132145",
     "https://www.doomworld.com/cacowards/2023/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

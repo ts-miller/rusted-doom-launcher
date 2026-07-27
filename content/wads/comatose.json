@@ -7,7 +7,7 @@
     }
   ],
   "year": 2015,
-  "description": "This map originally has been made for \"Pain\" project, but in the result I decided to cut it from there because of some reasons (which I cannot say yet). It is a continuation of the idea of \"Overdose\", but it's not related in terms of the story. A limit of sidedefs in LR format is achieved here, so it is not possible to draw at least one new line at all. Because of this, as well as the abundance of large open spaces with lots of sectors, map may slow down in complex sourceports like ZDoom and ...",
+  "description": "Comatose is a massive single-level PWAD for Doom II designed by Lainos, set across sprawling environments featuring streets, buildings, and ruins. The level hits the sidedef limit through its complex layout and abundance of large open spaces. It features the music track \"Android Hell\" from Portal and includes 23 secrets to discover.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Comatose",
     "https://www.doomworld.com/vb/thread/85523",
     "https://www.doomworld.com/23years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -2,7 +2,6 @@
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
-#     "google-genai",
 #     "requests",
 #     "beautifulsoup4",
 #     "markdownify",
@@ -25,8 +24,8 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md
-from google import genai
-from google.genai import types
+
+import llm
 
 SCRIPTS_DIR = Path(__file__).parent
 WADS_DIR = SCRIPTS_DIR.parent / "content" / "wads"
@@ -107,22 +106,10 @@ def get_doomwiki_url(entry: dict) -> str | None:
 
 
 def extract_summary(content: str, prompt: str) -> dict:
-    client = genai.Client()
-
-    response = client.models.generate_content(
-        model="gemini-3-flash-preview",
-        contents=[f"Content about a Doom WAD:\n\n{content}\n\n{prompt}"],
-        config=types.GenerateContentConfig(temperature=0.3),
+    return llm.chat_json(
+        f"Content about a Doom WAD:\n\n{content}\n\n{prompt}",
+        temperature=0.3,
     )
-
-    if response.candidates and response.candidates[0].content.parts:
-        text = response.candidates[0].content.parts[0].text.strip()
-        if text.startswith("```"):
-            text = text.split("\n", 1)[1]
-        if text.endswith("```"):
-            text = text.rsplit("```", 1)[0]
-        return json.loads(text.strip())
-    return {}
 
 
 def process_wad(filepath: Path, difficulty_scale: str) -> dict | None:

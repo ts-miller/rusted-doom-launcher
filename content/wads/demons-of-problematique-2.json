@@ -7,7 +7,7 @@
     }
   ],
   "year": 2009,
-  "description": "An obvious sequel to Demons of Problematique. No cutscenes (aside from the ending), no new weapons, no new monsters, just Doom. With some fancy effects. Be sure to turn up the music volume to above the SFX volume. Music is used sparingly but serves a purpose other than just background noise. There are plenty of ambient sounds to provide atmosphere during regular play. If you are masochistic enough to want to subject yourself to the Nightmare! difficulty level, you can do so by entering the Ha...",
+  "description": "Demons of Problematique 2 is a five-level PK3 for Doom II by Dennis Meuwissen and a sequel to Demons of Problematique. It features traditional Doom gameplay without new weapons or monsters, combining fancy visual effects with an atmospheric soundscape driven by ambient sounds and sparingly used music.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -42,5 +42,6 @@
     "https://doomwiki.org/wiki/Demons_of_Problematique_2",
     "https://www.doomworld.com/vb/thread/47858",
     "https://www.doomworld.com/16years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

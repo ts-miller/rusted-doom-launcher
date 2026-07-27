@@ -7,7 +7,7 @@
     }
   ],
   "year": 2004,
-  "description": "In an attempt to destroy this world from within, Apophis has created Uraeusis to achieve that goal. Chosen by Seth, you must battle your way through the Underworld and defeat Uraeusis. **IMPORTANT** Disable \"Scale Text in High Res\" if you have it enabled, as this will crash the game.",
+  "description": "Chosen is a 10-level total conversion for Doom II themed around ancient Egyptian mythology. Playing as Kissa, a follower of Seth, players battle through the underworld to defeat the abomination Uraeusis. The mod features five brand new weapons, custom enemy types, and a Quake-style difficulty selection level.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -41,5 +41,6 @@
   "urls": [
     "https://doomwiki.org/wiki/Chosen",
     "https://www.doomworld.com/11years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

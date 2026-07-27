@@ -7,16 +7,16 @@
     }
   ],
   "year": 2019,
-  "description": "NOTE- I designed this with -ALTDEATH in mind, but it should still be fun in normal mode. This WAD is the culmination of everything that my victims .. uh, I mean my friends and I wanted to see in a DEATHMATCH level. Lots of running room, large open circular rooms with wide twisty halls connecting them. Great sniping positions, and many LURKING spots. (I am a lurker at heart) There are no \"safe\" spots, no matter where you are you can be snuck up on. Everyone gets the shotgun and chaingun right ...",
+  "description": "Paradise is a partial conversion for Doom II featuring a seven-level main campaign and an additional episode of 25 speedmaps. Set across lush, tropical lands that give way to poisoned and Hellish landscapes, it alters the appearance and behavior of weapons and enemies while removing random numbers from all damage calculations.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
   "requires": [],
   "downloads": [
     {
-      "type": "idgames",
-      "url": "https://youfailit.net/pub/idgames/levels/doom/deathmatch/j-l/lurker.zip",
-      "filename": "lurker.zip"
+      "type": "direct",
+      "url": "https://www.dropbox.com/s/7uq9bvaumnm3oyg/paradise-v2.1.zip?dl=1",
+      "filename": "paradise-v2.1.zip"
     }
   ],
   "thumbnail": "https://doomwiki.org/w/images/7/76/Paradise_Title.png",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Paradise",
     "https://www.doomworld.com/vb/thread/106058",
     "https://www.doomworld.com/cacowards/2019/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

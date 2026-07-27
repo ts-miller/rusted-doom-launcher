@@ -7,7 +7,7 @@
     }
   ],
   "year": 2023,
-  "description": "Ultimate Doom In Name Only tasks its authors with creating levels based solely off of the map titles from id's 1995 classic, Ultimate Doom. A priority of the project was to be equal parts fun, challenging, and creative.",
+  "description": "Ultimate Doom In Name Only is a 36-level community megawad for The Ultimate Doom. Mappers constructed each level based solely on the map titles from the original 1995 game, prioritizing creative, challenging, and fun design. A prequel to Doom 2 In Name Only, the project spans four episodes and features renamed skill levels.",
   "iwad": "doom",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Ultimate_Doom_In_Name_Only",
     "https://www.doomworld.com/vb/thread/137395",
     "https://www.doomworld.com/cacowards/2023/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -7,7 +7,7 @@
     }
   ],
   "year": 2018,
-  "description": "Struggle - Antaresian Legacy is a single-player mod for Doom 2 with limit removing compatibility. It features new weapons and monsters replacement with DeHacked patch. Some of original monsters are also slightly changed, so it's recommended to check out the info below, before you play this one. Thanks, and have fun. :) [IMPORTANT] This wad uses heavily modified DeHacked patch. So it is recommended not to use other custom gameplay patches. P.S.: Par time is based on UV-MAX, not UV-Speed P.P.S....",
+  "description": "Struggle - Antaresian Legacy is a 32-level partial-conversion megawad for Doom II spanning three episodes. It utilizes a heavily modified DeHackEd patch to introduce new weapons, modified monster behaviors, and entirely custom enemies. The mod also rebalances ammo capacities and replaces standard powerups with unique floating sphere artifacts.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "limit_removing",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Struggle_-_Antaresian_Legacy",
     "https://www.doomworld.com/vb/thread/74791",
     "https://www.doomworld.com/cacowards/2018/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

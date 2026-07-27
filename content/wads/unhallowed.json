@@ -7,7 +7,7 @@
     }
   ],
   "year": 2020,
-  "description": "A short Map with lots of action",
+  "description": "Unhallowed is a large single-level slaughter map designed by Cyano Blugron that features OTEX textures. Players fight off massive hordes of imps, Hell knights, revenants, and cyberdemons using high-powered weaponry like the BFG9000. The level includes custom music titled \"Oracle Night\" by Alfonzo.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -15,8 +15,8 @@
   "downloads": [
     {
       "type": "idgames",
-      "url": "https://youfailit.net/pub/idgames/levels/doom2/g-i/hotu.zip",
-      "filename": "hotu.zip"
+      "url": "https://youfailit.net/pub/idgames/levels/doom2/Ports/s-u/unhallowed.zip",
+      "filename": "unhallowed.zip"
     }
   ],
   "thumbnail": "",
@@ -62,5 +62,6 @@
     "https://doomwiki.org/wiki/Unhallowed",
     "https://www.doomworld.com/vb/thread/118390",
     "https://www.doomworld.com/cacowards/2021/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

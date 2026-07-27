@@ -7,7 +7,7 @@
     }
   ],
   "year": 2014,
-  "description": "Resurgence is a 32 maps megawad project, an upgrade from the unfinished Surge project. The maps are similar to Speed of Doom, ranging from Scythe/Plutonia-like maps to Speed of Doom to Resurgence-unique. The difficulty is considerably less in places but there are several challenging maps to plow through with the occasional slaughtermaps. (For those who don't like slaughter, avoid Map11,25,27,28,30) Sizes vary greatly (for the sake of variety), ranging from quick paced maps lasting 5 minutes t...",
+  "description": "Resurgence is a 32-map megawad created by Josh Sealy that draws inspiration from Scythe, Plutonia, and Speed of Doom. Its levels range from quick five-minute challenges to hour-long grinds, incorporating occasional slaughtermaps. A custom DeHackEd patch adds rebalanced versions of the Evil Marine and Afrit monsters.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Resurgence",
     "https://www.doomworld.com/21years/",
     "https://www.doomworld.com/forum/topic/66084-resurgence-boom-compatible-megawad-final-version-released-idgames-link-up/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

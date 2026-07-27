@@ -7,7 +7,7 @@
     }
   ],
   "year": 2017,
-  "description": "i like to keep my doom 2 installation floppies attached to my computer with magnets so i don't lose them some can experience seizures when exposed to flashing lights or other visual stimuli. even if you've never been diagnosed, please be stop playing this wad if you encounter disorientation, lightheadedness, altered vision, involuntary twitching/jerking movements, or momentary loss of awareness/consciousness. i tried very hard to avoid anything that would cause physical discomfort but everyon...",
+  "description": "Lilith is a 12-level mapset featuring ten playable maps and two technical checking maps. Created by anotak, the mod uses corrupted Doom II graphics and remixed soundtracks to build a glitchy atmosphere. Its levels intentionally exploit technical engine bugs, using custom scripts to trigger faulty visual behavior and environmental anomalies.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Lilith",
     "https://www.doomworld.com/vb/thread/94302",
     "https://www.doomworld.com/24years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

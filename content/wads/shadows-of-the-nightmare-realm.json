@@ -7,7 +7,7 @@
     }
   ],
   "year": 2017,
-  "description": "Hell was defeated by a lone marine. But what no one knew was that there was a far greater and nigh inconceivable evil lurking beyond our realm: the Elder Gods. They saw how Hell had failed and felt it was now their time to succeed. They knew of the Doomguy's strength, and decided to attack him in the one place he's vulnerable: in his nightmares. Shadows of The Nightmare Realm takes place within the dreams of the Doomguy, each one manipulated by the Elder Gods.",
+  "description": "Set within the manipulated nightmares of the Doom protagonist, Shadows of the Nightmare Realm is a mapset featuring four main levels, one secret map, and a start map. Themed around Lovecraftian horror and abstract design, it incorporates non-Euclidean geometry, custom monsters, 3D models, and an original soundtrack composed entirely by Remilia Scarlet.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "gzdoom",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Shadows_of_the_Nightmare_Realm",
     "https://www.doomworld.com/vb/thread/94268",
     "https://www.doomworld.com/24years/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

@@ -7,7 +7,7 @@
     }
   ],
   "year": 2020,
-  "description": "Rowdy Rudy is back and he's madder than ever! THE BACKSTORY: 8 months have passed since Rudy took out the evil cult known as the Protectors, avenged his brother and saved his home city. Impressed by his efforts, many different entities reached out to him and offered him money for mercenary work. Rudy was not interested, he just wanted to live a somewhat normal life and continually refused offers. Having realized it wouldn't stop and could potentially lead to confrontation, Rudy decided to rel...",
+  "description": "Rowdy Rudy II: POWERTRIP is a 20-level partial conversion megawad set across northern mountain research bases overrun by insane super soldiers and escaped aliens. Created by various mappers and led by Doomkid, this Doom II campaign features extensive DeHackEd modifications, including altered weapon behaviors, custom item sprites, and a revamped monster roster.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "vanilla",
@@ -37,5 +37,6 @@
     "https://doomwiki.org/wiki/Rowdy_Rudy_II:_POWERTRIP",
     "https://www.doomworld.com/vb/thread/116601",
     "https://www.doomworld.com/cacowards/2020/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }
