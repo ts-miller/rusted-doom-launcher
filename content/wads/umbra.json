@@ -7,16 +7,16 @@
     }
   ],
   "year": 2024,
-  "description": "A man is on vacation and is out enjoying a day of hunting while his wife and infant son are at home. After a long and boring day, he starts walking back to his car, only to discover a ravine that wasn't there before. Feeling an unusually strong urge to find out what lurks beyond the ravine, he jumps down into it and heads out into the dark, foggy forest night. Umbra of Fate is something of a personal experiment where I try to push the type of gameplay I enjoy to the limit.",
+  "description": "Umbra is a large, nonlinear single-map release featuring a narrative underpinning. Gameplay ranges from low-tier enemy slaughter and small-scale traps to platforming, quiet exploration, and secret-hunting. Distinctive additions include normalized fist damage and 1000 HP cyberdemons alongside standard ones.",
   "iwad": "doom2",
   "type": "megawad",
   "sourcePort": "boom",
   "requires": [],
   "downloads": [
     {
-      "type": "idgames",
-      "url": "https://youfailit.net/pub/idgames/levels/doom2/Ports/s-u/uof.zip",
-      "filename": "uof.zip"
+      "type": "direct",
+      "url": "https://web.archive.org/web/20251216230505/https://www.doomworld.com/applications/core/interface/file/attachment.php?id=351149",
+      "filename": "Umbra_RC6.zip"
     }
   ],
   "thumbnail": "",
@@ -35,5 +35,6 @@
   "_source": "cacowards-scraper",
   "urls": [
     "https://www.doomworld.com/forum/topic/148700-umbra-rc6-mbf21/"
-  ]
+  ],
+  "_descriptionSource": "generated"
 }

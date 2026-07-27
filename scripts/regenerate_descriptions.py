@@ -52,18 +52,6 @@ IDGAMES_API = "https://www.doomworld.com/idgames/api/api.php"
 HEADERS = {"User-Agent": "DoomLauncher-WikiScraper/1.0"}
 MAX_WIKI_CHARS = 15000
 
-# These entries link to a download that is a DIFFERENT wad sharing the name
-# (audit 2026-07-21/22). Regenerating from that source would launder the error
-# into fluent text, so they are skipped until the downloads are corrected.
-# Remaining three are forum-attachment releases (Doomworld blocks scripted
-# fetches), so the correct URLs need manual retrieval.
-WRONG_DOWNLOAD = {
-    "paradise",
-    "umbra",
-    "infested",
-}
-
-
 def fetch_idgames_description(entry: dict) -> str | None:
     """Fetch the idgames text-file description for the entry's download path."""
     downloads = entry.get("downloads", [])
@@ -179,9 +167,6 @@ def run_generate(args: argparse.Namespace) -> None:
     for path in paths:
         entry = json.loads(path.read_text())
         if entry.get("_descriptionSource") == "manual":
-            continue
-        if entry["slug"] in WRONG_DOWNLOAD:
-            print(f"SKIP {entry['slug']} (known wrong download — fix URL first)", file=sys.stderr)
             continue
         if entry["slug"] in existing:
             continue
