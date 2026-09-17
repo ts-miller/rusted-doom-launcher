@@ -22,11 +22,11 @@
   "thumbnail": "https://cdn.jsdelivr.net/gh/stared/rusted-doom-launcher@main/content/assets/thumbnails/action-doom-2-urban-brawl.webp",
   "screenshots": [
     {
-      "url": "https://doomwiki.org/w/images/c/c1/Action_doom_2.png",
+      "url": "https://cdn.jsdelivr.net/gh/stared/rusted-doom-launcher@main/content/assets/screenshots/action-doom-2-urban-brawl/00_action_doom_2.webp",
       "caption": "Urban Brawl's cel-shaded graphics"
     },
     {
-      "url": "https://doomwiki.org/w/images/8/82/Action_doom_2_box.jpg",
+      "url": "https://cdn.jsdelivr.net/gh/stared/rusted-doom-launcher@main/content/assets/screenshots/action-doom-2-urban-brawl/01_action_doom_2_box.webp",
       "caption": "Urban Brawl - Special Edition"
     }
   ],

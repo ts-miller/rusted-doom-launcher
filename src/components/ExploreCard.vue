@@ -7,6 +7,7 @@ import { useWadSummaries } from "../composables/useWadSummaries";
 import { useLibrary } from "../composables/useLibrary";
 import DownloadPlayButton from "./DownloadPlayButton.vue";
 import WadLinks from "./WadLinks.vue";
+import { resolveArtworkUrl, isImageOutlier, markImageAspect } from "../lib/constants";
 
 // Slideshow interval in milliseconds
 const SLIDESHOW_INTERVAL_MS = 2000;
@@ -65,9 +66,11 @@ watch(() => props.wad.slug, () => {
 const allImages = computed(() => {
   const images: string[] = [];
   if (localThumbnail.value) images.push(localThumbnail.value);
-  if (props.wad.thumbnail) images.push(props.wad.thumbnail);
+  if (props.wad.thumbnail) images.push(resolveArtworkUrl(props.wad.thumbnail));
   for (const s of props.wad.screenshots) {
-    images.push(s.url);
+    if (s.url && !s.url.includes("doomwiki.org")) {
+      images.push(resolveArtworkUrl(s.url));
+    }
   }
   return images;
 });
@@ -89,14 +92,25 @@ const currentImage = computed(() => {
 });
 
 function handleImageError() {
-  if (currentImage.value) {
-    failedImages.value.add(currentImage.value);
+  const failedUrl = currentImage.value;
+  if (failedUrl) {
+    failedImages.value.add(failedUrl);
+  }
+  if (availableImages.value.length <= 1) {
+    stopSlideshow();
+  } else {
+    currentImageIndex.value = 0;
   }
 }
 
 function startSlideshow() {
   if (availableImages.value.length <= 1) return;
+  if (slideshowInterval) clearInterval(slideshowInterval);
   slideshowInterval = setInterval(() => {
+    if (availableImages.value.length <= 1) {
+      stopSlideshow();
+      return;
+    }
     currentImageIndex.value = (currentImageIndex.value + 1) % availableImages.value.length;
   }, SLIDESHOW_INTERVAL_MS);
 }
@@ -120,23 +134,40 @@ const authorDisplay = computed(() => {
   if (names.length === 2) return names.join(" & ");
   return `${names[0]} +${names.length - 1}`;
 });
+
+function onImageLoad(e: Event, url: string) {
+  const img = e.target as HTMLImageElement;
+  if (img && img.naturalWidth && img.naturalHeight) {
+    markImageAspect(url, img.naturalWidth, img.naturalHeight);
+  }
+}
 </script>
 
 <template>
   <div class="flex h-full flex-col overflow-hidden rounded-lg bg-zinc-900 shadow-lg">
     <!-- Image area with overlay -->
     <div
-      class="relative aspect-video overflow-hidden"
+      class="relative aspect-video overflow-hidden bg-zinc-950"
       @mouseenter="startSlideshow"
       @mouseleave="stopSlideshow"
     >
+      <!-- Blurred backdrop for outlier aspect ratios -->
+      <img
+        v-if="currentImage && isImageOutlier(currentImage)"
+        :src="currentImage"
+        class="absolute inset-0 w-full h-full object-cover blur-xl opacity-30 scale-110 pointer-events-none"
+        aria-hidden="true"
+      />
+
       <!-- Screenshot/thumbnail with slideshow -->
       <img
         v-if="currentImage"
         :src="currentImage"
         :alt="wad.title"
-        class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300"
+        class="absolute inset-0 w-full h-full transition-opacity duration-300"
+        :class="isImageOutlier(currentImage) ? 'object-contain' : 'object-cover'"
         @error="handleImageError"
+        @load="onImageLoad($event, currentImage)"
       />
 
       <!-- Fallback for no image -->

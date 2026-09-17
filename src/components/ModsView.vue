@@ -10,6 +10,7 @@ import { useSettings } from "../composables/useSettings";
 import { useLibrary } from "../composables/useLibrary";
 import DownloadPlayButton from "./DownloadPlayButton.vue";
 import AddCustomTile from "./AddCustomTile.vue";
+import { resolveArtworkUrl, isImageOutlier, markImageAspect } from "../lib/constants";
 
 const { wads } = defineProps<{
   wads: WadEntry[];
@@ -58,9 +59,19 @@ function handleThumbnailError(slug: string) {
 function thumbnailFor(wad: WadEntry): string | null {
   if (failedThumbnails.value.has(wad.slug)) return null;
   if (localThumbnails.value[wad.slug]) return localThumbnails.value[wad.slug];
-  if (wad.thumbnail) return wad.thumbnail;
-  if (wad.screenshots.length > 0) return wad.screenshots[0].url;
+  if (wad.thumbnail) return resolveArtworkUrl(wad.thumbnail);
+  if (wad.screenshots.length > 0) return resolveArtworkUrl(wad.screenshots[0].url);
+  if (wad.screenshots.length > 0 && !wad.screenshots[0].url.includes("doomwiki.org")) {
+    return resolveArtworkUrl(wad.screenshots[0].url);
+  }
   return null;
+}
+
+function onImageLoad(e: Event, url: string) {
+  const img = e.target as HTMLImageElement;
+  if (img && img.naturalWidth && img.naturalHeight) {
+    markImageAspect(url, img.naturalWidth, img.naturalHeight);
+  }
 }
 
 function authorsLine(wad: WadEntry): string {
@@ -149,12 +160,21 @@ const filteredWads = computed(() => {
         >
           <!-- 16:9 thumbnail -->
           <div class="relative aspect-video overflow-hidden bg-zinc-900">
+            <!-- Blurred backdrop for outlier aspect ratios -->
+            <img
+              v-if="thumbnailFor(wad) && isImageOutlier(thumbnailFor(wad))"
+              :src="thumbnailFor(wad) ?? ''"
+              class="absolute inset-0 w-full h-full object-cover blur-xl opacity-30 scale-110 pointer-events-none"
+              aria-hidden="true"
+            />
             <img
               v-if="thumbnailFor(wad)"
               :src="thumbnailFor(wad) ?? ''"
               :alt="wad.title"
-              class="absolute inset-0 w-full h-full object-cover"
+              class="absolute inset-0 w-full h-full transition-opacity duration-300"
+              :class="isImageOutlier(thumbnailFor(wad)) ? 'object-contain' : 'object-cover'"
               @error="handleThumbnailError(wad.slug)"
+              @load="onImageLoad($event, thumbnailFor(wad) ?? '')"
             />
             <div
               v-else
