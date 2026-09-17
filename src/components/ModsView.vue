@@ -64,6 +64,8 @@ function thumbnailFor(wad: WadEntry): string | null {
   if (wad.screenshots.length > 0 && !wad.screenshots[0].url.includes("doomwiki.org")) {
     return resolveArtworkUrl(wad.screenshots[0].url);
   }
+  const validScreenshot = wad.screenshots.find(s => s.url && !s.url.includes("doomwiki.org"));
+  if (validScreenshot) return resolveArtworkUrl(validScreenshot.url);
   return null;
 }
 
