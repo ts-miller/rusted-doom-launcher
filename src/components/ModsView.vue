@@ -1,10 +1,13 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, ref, onMounted, watch } from "vue";
 import { Layers } from "@lucide/vue";
+import { convertFileSrc } from "@tauri-apps/api/core";
+import { exists } from "@tauri-apps/plugin-fs";
 import FilterBar from "./FilterBar.vue";
 import type { WadEntry } from "../lib/schema";
 import { useDownload } from "../composables/useDownload";
 import { useSettings } from "../composables/useSettings";
+import { useLibrary } from "../composables/useLibrary";
 import DownloadPlayButton from "./DownloadPlayButton.vue";
 import AddCustomTile from "./AddCustomTile.vue";
 
@@ -22,8 +25,39 @@ const emit = defineEmits<{
 
 const { isDownloaded: checkDownloaded } = useDownload();
 const { settings } = useSettings();
+const { thumbnailPath } = useLibrary();
+
+const failedThumbnails = ref<Set<string>>(new Set());
+const localThumbnails = ref<Record<string, string>>({});
+
+async function checkLocalThumbnails() {
+  for (const wad of wads) {
+    try {
+      const path = thumbnailPath(wad.slug);
+      if (await exists(path)) {
+        localThumbnails.value[wad.slug] = convertFileSrc(path);
+      }
+    } catch {
+      // ignore
+    }
+  }
+}
+
+onMounted(() => {
+  checkLocalThumbnails();
+});
+
+watch(() => wads, () => {
+  checkLocalThumbnails();
+}, { deep: true });
+
+function handleThumbnailError(slug: string) {
+  failedThumbnails.value.add(slug);
+}
 
 function thumbnailFor(wad: WadEntry): string | null {
+  if (failedThumbnails.value.has(wad.slug)) return null;
+  if (localThumbnails.value[wad.slug]) return localThumbnails.value[wad.slug];
   if (wad.thumbnail) return wad.thumbnail;
   if (wad.screenshots.length > 0) return wad.screenshots[0].url;
   return null;
@@ -120,6 +154,7 @@ const filteredWads = computed(() => {
               :src="thumbnailFor(wad) ?? ''"
               :alt="wad.title"
               class="absolute inset-0 w-full h-full object-cover"
+              @error="handleThumbnailError(wad.slug)"
             />
             <div
               v-else

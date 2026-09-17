@@ -31,7 +31,7 @@ async function validateDownload(path: string, filename: string): Promise<void> {
 
 export function useDownload() {
   const { loadLevelNames } = useLevelNames();
-  const { base, wadFile, iwadFile } = useLibrary();
+  const { base, wadFile, iwadFile, thumbnailPath, thumbnailsDir } = useLibrary();
 
   /**
    * Extract game files (.wad/.pk3) from a ZIP archive into the library.
@@ -57,6 +57,23 @@ export function useDownload() {
       return { wadFilename: primary.name, additionalFiles: additional.map(f => f.name) };
     } finally {
       installing.value.delete(slug);
+    }
+  }
+
+  async function downloadThumbnail(wad: WadEntry): Promise<void> {
+    const thumbUrl = wad.thumbnail || (wad.screenshots && wad.screenshots.length > 0 ? wad.screenshots[0].url : null);
+    if (!thumbUrl) return;
+
+    try {
+      const dir = thumbnailsDir();
+      await mkdir(dir, { recursive: true });
+      const target = thumbnailPath(wad.slug);
+      if (!(await exists(target))) {
+        await tauriDownload(thumbUrl, target, () => {});
+        console.log(`[Thumbnail] Downloaded artwork for ${wad.slug}`);
+      }
+    } catch (e) {
+      console.warn(`[Thumbnail] Could not download artwork for ${wad.slug}:`, e);
     }
   }
 
@@ -189,6 +206,7 @@ export function useDownload() {
         };
         await saveState();
         await loadLevelNames(wad.slug);
+        await downloadThumbnail(wad);
         return wadFile(wadFilename);
       } else {
         downloads.value.downloads[wad.slug] = {
@@ -196,6 +214,7 @@ export function useDownload() {
         };
         await saveState();
         await loadLevelNames(wad.slug);
+        await downloadThumbnail(wad);
         return path;
       }
     } finally {
@@ -237,6 +256,15 @@ export function useDownload() {
       } catch (e) {
         console.error(`Failed to delete ${info.wadFilename}:`, e);
       }
+    }
+    // Delete cached thumbnail if present
+    try {
+      const thumb = thumbnailPath(slug);
+      if (await exists(thumb)) {
+        await remove(thumb);
+      }
+    } catch (e) {
+      console.warn(`Failed to delete thumbnail for ${slug}:`, e);
     }
     delete downloads.value.downloads[slug];
     await saveState();

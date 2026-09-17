@@ -1,7 +1,10 @@
 <script setup lang="ts">
-import { ref, computed, onUnmounted } from "vue";
+import { ref, computed, onMounted, onUnmounted, watch } from "vue";
+import { convertFileSrc } from "@tauri-apps/api/core";
+import { exists } from "@tauri-apps/plugin-fs";
 import type { WadEntry } from "../lib/schema";
 import { useWadSummaries } from "../composables/useWadSummaries";
+import { useLibrary } from "../composables/useLibrary";
 import DownloadPlayButton from "./DownloadPlayButton.vue";
 import WadLinks from "./WadLinks.vue";
 
@@ -9,6 +12,7 @@ import WadLinks from "./WadLinks.vue";
 const SLIDESHOW_INTERVAL_MS = 2000;
 
 const { getDifficulty, getVibe } = useWadSummaries();
+const { thumbnailPath } = useLibrary();
 
 const props = defineProps<{
   wad: WadEntry;
@@ -33,9 +37,34 @@ const difficultyConfig = computed(() => {
   return { color: "bg-red-700", textColor: "text-red-300", label: "Nightmare" };
 });
 
-// All available images: thumbnail first, then screenshots
+// Local cached thumbnail state
+const localThumbnail = ref<string | null>(null);
+
+async function checkLocalThumbnail() {
+  try {
+    const path = thumbnailPath(props.wad.slug);
+    if (await exists(path)) {
+      localThumbnail.value = convertFileSrc(path);
+    }
+  } catch {
+    // ignore
+  }
+}
+
+onMounted(() => {
+  checkLocalThumbnail();
+});
+
+watch(() => props.wad.slug, () => {
+  localThumbnail.value = null;
+  failedImages.value.clear();
+  checkLocalThumbnail();
+});
+
+// All available images: local thumbnail first, then remote thumbnail, then screenshots
 const allImages = computed(() => {
   const images: string[] = [];
+  if (localThumbnail.value) images.push(localThumbnail.value);
   if (props.wad.thumbnail) images.push(props.wad.thumbnail);
   for (const s of props.wad.screenshots) {
     images.push(s.url);
@@ -43,19 +72,32 @@ const allImages = computed(() => {
   return images;
 });
 
+// Track failed images to gracefully fall back
+const failedImages = ref<Set<string>>(new Set());
+
+const availableImages = computed(() => {
+  return allImages.value.filter(img => !failedImages.value.has(img));
+});
+
 // Slideshow state
 const currentImageIndex = ref(0);
 let slideshowInterval: ReturnType<typeof setInterval> | null = null;
 
 const currentImage = computed(() => {
-  if (allImages.value.length === 0) return null;
-  return allImages.value[currentImageIndex.value];
+  if (availableImages.value.length === 0) return null;
+  return availableImages.value[currentImageIndex.value % availableImages.value.length];
 });
 
+function handleImageError() {
+  if (currentImage.value) {
+    failedImages.value.add(currentImage.value);
+  }
+}
+
 function startSlideshow() {
-  if (allImages.value.length <= 1) return;
+  if (availableImages.value.length <= 1) return;
   slideshowInterval = setInterval(() => {
-    currentImageIndex.value = (currentImageIndex.value + 1) % allImages.value.length;
+    currentImageIndex.value = (currentImageIndex.value + 1) % availableImages.value.length;
   }, SLIDESHOW_INTERVAL_MS);
 }
 
@@ -94,6 +136,7 @@ const authorDisplay = computed(() => {
         :src="currentImage"
         :alt="wad.title"
         class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300"
+        @error="handleImageError"
       />
 
       <!-- Fallback for no image -->
