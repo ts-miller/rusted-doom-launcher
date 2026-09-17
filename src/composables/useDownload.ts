@@ -1,5 +1,5 @@
 import { ref } from "vue";
-import { exists, mkdir, remove, rename, stat } from "@tauri-apps/plugin-fs";
+import { exists, mkdir, remove, rename, stat, writeFile } from "@tauri-apps/plugin-fs";
 import { download as tauriDownload } from "@tauri-apps/plugin-upload";
 import { invoke } from "@tauri-apps/api/core";
 import type { DownloadRecord, WadEntry } from "../lib/schema";
@@ -7,6 +7,7 @@ import { type LauncherDownloads } from "../lib/schema";
 import { downloads } from "./downloadState";
 import { useLevelNames } from "./useLevelNames";
 import { selectPrimaryGameFile, type GameFileInfo } from "../lib/zipExtract";
+import { inspectGameFile } from "../lib/wadInspect";
 import { GOG_EXPANSIONS } from "../lib/gogContent";
 import { useLibrary } from "./useLibrary";
 
@@ -60,20 +61,43 @@ export function useDownload() {
     }
   }
 
-  async function downloadThumbnail(wad: WadEntry): Promise<void> {
-    const thumbUrl = wad.thumbnail || (wad.screenshots && wad.screenshots.length > 0 ? wad.screenshots[0].url : null);
-    if (!thumbUrl) return;
+  async function downloadThumbnail(wad: WadEntry, gameFilePath?: string): Promise<void> {
+    const target = thumbnailPath(wad.slug);
+    if (await exists(target)) return;
 
     try {
       const dir = thumbnailsDir();
       await mkdir(dir, { recursive: true });
-      const target = thumbnailPath(wad.slug);
-      if (!(await exists(target))) {
-        await tauriDownload(thumbUrl, target, () => {});
-        console.log(`[Thumbnail] Downloaded artwork for ${wad.slug}`);
+
+      // 1. Official/curated artwork from catalog (CDN or local)
+      let downloaded = false;
+      const thumbUrl = wad.thumbnail || (wad.screenshots && wad.screenshots.length > 0 ? wad.screenshots[0].url : null);
+      if (thumbUrl && !thumbUrl.includes("doomwiki.org")) {
+        try {
+          await tauriDownload(thumbUrl, target, () => {});
+          console.log(`[Thumbnail] Downloaded curated artwork for ${wad.slug}`);
+          downloaded = true;
+        } catch (e) {
+          console.warn(`[Thumbnail] Could not download curated artwork for ${wad.slug}, falling back to TITLEPIC:`, e);
+        }
+      }
+
+      // 2. Fallback: Extract native TITLEPIC lump from downloaded .wad/.pk3
+      if (!downloaded && gameFilePath && (await exists(gameFilePath))) {
+        try {
+          const filename = gameFilePath.split("/").pop() ?? "";
+          const inspection = await inspectGameFile(filename, gameFilePath);
+          if (inspection.titlepic) {
+            await writeFile(target, inspection.titlepic.png);
+            console.log(`[Thumbnail] Extracted native TITLEPIC for ${wad.slug} (${inspection.titlepic.width}x${inspection.titlepic.height})`);
+            downloaded = true;
+          }
+        } catch (e) {
+          console.warn(`[Thumbnail] Could not extract native TITLEPIC for ${wad.slug}:`, e);
+        }
       }
     } catch (e) {
-      console.warn(`[Thumbnail] Could not download artwork for ${wad.slug}:`, e);
+      console.warn(`[Thumbnail] Error ensuring thumbnail for ${wad.slug}:`, e);
     }
   }
 
@@ -206,15 +230,16 @@ export function useDownload() {
         };
         await saveState();
         await loadLevelNames(wad.slug);
-        await downloadThumbnail(wad);
-        return wadFile(wadFilename);
+        const fullWadPath = wadFile(wadFilename);
+        await downloadThumbnail(wad, fullWadPath);
+        return fullWadPath;
       } else {
         downloads.value.downloads[wad.slug] = {
           filename, wadFilename: filename, downloadedAt: new Date().toISOString(), size: fileStat.size, externalPath: "",
         };
         await saveState();
         await loadLevelNames(wad.slug);
-        await downloadThumbnail(wad);
+        await downloadThumbnail(wad, path);
         return path;
       }
     } finally {

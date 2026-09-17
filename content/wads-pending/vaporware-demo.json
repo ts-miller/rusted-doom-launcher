@@ -19,7 +19,7 @@
       "filename": "vaporware-demo.zip"
     }
   ],
-  "thumbnail": "https://doomwiki.org/w/images/5/5d/Vaporware-demo-titlepic.png",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/stared/rusted-doom-launcher@main/content/assets/thumbnails/vaporware-demo.webp",
   "screenshots": [
     {
       "url": "https://doomwiki.org/w/images/b/b7/Vaporware-map.png",

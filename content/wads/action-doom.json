@@ -19,7 +19,7 @@
       "filename": "action.zip"
     }
   ],
-  "thumbnail": "https://doomwiki.org/w/images/e/e2/Action_Doom_title.png",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/stared/rusted-doom-launcher@main/content/assets/thumbnails/action-doom.webp",
   "screenshots": [
     {
       "url": "https://doomwiki.org/w/images/d/dd/Action_doom_1.png",
